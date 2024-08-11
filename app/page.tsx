@@ -4,10 +4,10 @@ import { Link2, LinkIcon, Mic2, Table2, Ticket, User2 } from 'lucide-react';
 import { Skeleton } from '@/components/ui/skeleton';
 import { Suspense } from 'react';
 import Image from 'next/image';
-import ConfAfterImage from '@/components/conf-after-image';
-import HeaderImageSmall from '@/public/assets/header-sm@2x.png';
 import HeaderImageMedium from '@/public/assets/header-md@2x.png';
 import HeaderImageLarge from '@/public/assets/header-lg@2x.png';
+import GDGZagrebLogo from '@/public/assets/GDG-Zagreb-logo@3x.png';
+import WTMLogo from '@/public/wtm-logo.png';
 import ImageGallery from '@/components/image-gallery';
 
 const MainPage = () => {
@@ -53,9 +53,26 @@ const MainPage = () => {
                                 16+ speakers over 2 stages
                             </h2>
                             <h2 className='text-center w-full lg:text-2xl font-bold drop-shadow-2xl shadow-black/50'>
-                                Panels: Open source | Management | Diversity |
-                                AI
+                                Mobile | Web | Cloud | AI
                             </h2>
+
+                            <div className='flex flex-col items-center py-4'>
+                                <h2 className='text-center w-full lg:text-2xl font-bold drop-shadow-2xl shadow-black/50 mb-4'>
+                                    Have an awesome talk?
+                                </h2>
+
+                                <Link
+                                    href='https://docs.google.com/forms/d/e/1FAIpQLScrrAm6aIN9C2WPPI3Ir1xQmtXz67SOE-qhE97YarNaPFiq9w/viewform'
+                                    target='_blank'
+                                    rel='noopener noreferrer'
+                                >
+                                    <Button className='w-128 h-16 rounded-full lg:text-xl border-2 border-solid border-black shadow-xl bg-white text-foreground hover:text-background dark:border-white dark:text-black'>
+                                        <Mic2 className='mr-3'></Mic2>
+                                        <p>Become a speaker</p>
+                                    </Button>
+                                </Link>
+                            </div>
+
                             <h2 className='text-center w-full lg:text-2xl font-bold drop-shadow-2xl shadow-black/50'>
                                 Food, drinks, a lot of networking
                             </h2>
@@ -100,9 +117,6 @@ const MainPage = () => {
                     </div>
                     <div className='flex flex-col gap-y-6 my-20 items-center'>
                         <ImageGallery />
-                        <h2 className='text-center w-full lg:text-3xl font-bold drop-shadow-2xl shadow-black/50'>
-                            Mobile | Web | Cloud | AI
-                        </h2>
                     </div>
                     <div className='p-6 rounded-2xl shadow-lg bg-background w-full'>
                         <h1 className='text-center lg:text-3xl font-bold mb-3'>
@@ -135,7 +149,7 @@ const MainPage = () => {
                     </div>
                 </div>
 
-                <div className='p-6 max-w-[1020px] rounded-2xl shadow-lg bg-white'>
+                {/* <div className='p-6 max-w-[1020px] rounded-2xl shadow-lg bg-white'>
                     <h2 className='text-center text-black mb-8 w-full lg:text-3xl font-bold'>
                         Sponsored by:
                     </h2>
@@ -204,20 +218,36 @@ const MainPage = () => {
                             width={150}
                         ></Image>
                     </div>
+                </div> */}
+
+                <div className='p-6 max-w-[1020px] rounded-2xl shadow-lg bg-white'>
+                    <h2 className='text-center text-black mb-8 w-full lg:text-3xl font-bold'>
+                        Sponsors & partners
+                    </h2>
+                    <p className='text-center text-black mb-8 w-full'>
+                        Want to become a sponsor or partner?
+                    </p>
+                    <p className='text-center text-black mb-8 w-full'>
+                        Let's connect! Contact us at{' '}
+                        <a
+                            href='mailto:zagrebgdg@gmail.com'
+                            className='text-blue-500 underline'
+                        >
+                            zagrebgdg[at]gmail.com
+                        </a>
+                    </p>
                 </div>
 
                 <div className='p-6 max-w-[1020px] rounded-2xl shadow-lg bg-white'>
                     <h2 className='text-center mb-8 w-full lg:text-3xl font-bold text-black'>
                         Organized by:
                     </h2>
-                    <div className='flex items-center gap-x-5'>
+                    <div className='flex flex-col items-center gap-5 gap-x-5'>
                         <Link href={'https://gdg.community.dev/gdg-zagreb/'}>
                             <Image
-                                className='rounded-2xl'
-                                src={'/GDG-logo.png'}
-                                alt={'GDG Logo'}
-                                height={150}
-                                width={150}
+                                src={GDGZagrebLogo}
+                                alt={'GDG Zagreb Logo'}
+                                height={50}
                             ></Image>
                         </Link>
                         <Link
@@ -227,11 +257,9 @@ const MainPage = () => {
                             target='_blank'
                         >
                             <Image
-                                className='rounded-2xl'
-                                src={'/wtm-logo.png'}
+                                src={WTMLogo}
                                 alt={'WTM Logo'}
-                                height={100}
-                                width={100}
+                                height={50}
                             ></Image>
                         </Link>
                     </div>
