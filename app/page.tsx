@@ -12,7 +12,6 @@ import ImageGallery from '@/components/image-gallery';
 
 const MainPage = () => {
     const isAgendaAvailable = false;
-    const isSpeakersAvailable = false;
 
     return (
         <div className='container flex items-center justify-center px-4 mx-auto'>
@@ -49,53 +48,16 @@ const MainPage = () => {
                                 </Button>
                             </Link>
 
-                            <h2 className='text-center w-full lg:text-2xl font-bold drop-shadow-2xl shadow-black/50'>
-                                16+ speakers over 2 stages
-                            </h2>
-                            <h2 className='text-center w-full lg:text-2xl font-bold drop-shadow-2xl shadow-black/50'>
-                                Mobile | Web | Cloud | AI
+                            <h2 className='text-center w-full lg:text-4xl font-bold drop-shadow-2xl shadow-black/50'>
+                                20+ speakers over 2 stages
                             </h2>
 
-                            <div className='flex flex-col items-center py-4'>
-                                <h2 className='text-center w-full lg:text-2xl font-bold drop-shadow-2xl shadow-black/50 mb-4'>
-                                    Have an awesome talk?
-                                </h2>
-
-                                <Link
-                                    href='https://docs.google.com/forms/d/e/1FAIpQLScrrAm6aIN9C2WPPI3Ir1xQmtXz67SOE-qhE97YarNaPFiq9w/viewform'
-                                    target='_blank'
-                                    rel='noopener noreferrer'
-                                >
-                                    <Button className='w-128 h-16 rounded-full lg:text-xl border-2 border-solid border-black shadow-xl bg-white text-foreground hover:text-background dark:border-white dark:text-black'>
-                                        <Mic2 className='mr-3'></Mic2>
-                                        <p>Become a speaker</p>
-                                    </Button>
-                                </Link>
-                            </div>
-
-                            <h2 className='text-center w-full lg:text-2xl font-bold drop-shadow-2xl shadow-black/50'>
-                                Food, drinks, a lot of networking
-                            </h2>
-                            <h2 className='text-center w-full lg:text-2xl font-bold drop-shadow-2xl shadow-black/50'>
-                                Medium to huge after-party
-                            </h2>
-
-                            {isSpeakersAvailable ? (
-                                <Link href='/speakers'>
-                                    <Button className='w-128 h-16 rounded-full lg:text-xl border-2 border-solid border-black shadow-xl bg-white text-foreground hover:text-background dark:border-white dark:text-black'>
-                                        <User2 className='mr-3'></User2>
-                                        <p>Meet the speakers</p>
-                                    </Button>
-                                </Link>
-                            ) : (
-                                <Button
-                                    className='w-128 h-16 rounded-full lg:text-xl border-2 border-solid border-black shadow-xl bg-white text-foreground hover:text-background dark:border-white dark:text-black'
-                                    disabled
-                                >
+                            <Link href='/speakers'>
+                                <Button className='w-128 h-16 rounded-full lg:text-xl border-2 border-solid border-black shadow-xl bg-white text-foreground hover:text-background dark:border-white dark:text-black'>
                                     <User2 className='mr-3'></User2>
-                                    <p>Meet the speakers - TBA</p>
+                                    <p>Meet the speakers</p>
                                 </Button>
-                            )}
+                            </Link>
 
                             {isAgendaAvailable ? (
                                 <Link href='/agenda'>
@@ -113,6 +75,34 @@ const MainPage = () => {
                                     <p>View agenda - TBA</p>
                                 </Button>
                             )}
+
+                            <h2 className='text-center w-full lg:text-2xl font-bold drop-shadow-2xl shadow-black/50'>
+                                Mobile | Web | Cloud | AI
+                            </h2>
+
+                            {/* <div className='flex flex-col items-center py-4'>
+                                <h2 className='text-center w-full lg:text-2xl font-bold drop-shadow-2xl shadow-black/50 mb-4'>
+                                    Have an awesome talk?
+                                </h2>
+
+                                <Link
+                                    href='https://docs.google.com/forms/d/e/1FAIpQLScrrAm6aIN9C2WPPI3Ir1xQmtXz67SOE-qhE97YarNaPFiq9w/viewform'
+                                    target='_blank'
+                                    rel='noopener noreferrer'
+                                >
+                                    <Button className='w-128 h-16 rounded-full lg:text-xl border-2 border-solid border-black shadow-xl bg-white text-foreground hover:text-background dark:border-white dark:text-black'>
+                                        <Mic2 className='mr-3'></Mic2>
+                                        <p>Become a speaker</p>
+                                    </Button>
+                                </Link>
+                            </div> */}
+
+                            <h2 className='text-center w-full lg:text-2xl font-bold drop-shadow-2xl shadow-black/50'>
+                                Food, drinks, a lot of networking
+                            </h2>
+                            <h2 className='text-center w-full lg:text-2xl font-bold drop-shadow-2xl shadow-black/50'>
+                                Medium to huge after-party
+                            </h2>
                         </div>
                     </div>
                     <div className='flex flex-col gap-y-6 my-20 items-center'>

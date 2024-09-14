@@ -1,0 +1,89 @@
+{
+  "talks": [
+    {
+      "time": "09:00",
+      "name": "",
+      "talkName": "Registration and networking"
+    },
+    {
+      "time": "09:45",
+      "name": "",
+      "talkName": "Introduction and welcome"
+    },
+    {
+      "time": "10:00",
+      "name": "Boris Martinović",
+      "talkName": "From Punch Cards to  AI's Upcoming Revolution"
+    },
+    {
+      "time": "10:30",
+      "name": "Medhat Dawoud",
+      "talkName": "Embrace the Performance Budget Ritual"
+    },
+    {
+      "time": "11:00",
+      "name": "",
+      "talkName": "Coffee break"
+    },
+    {
+      "time": "11:30",
+      "name": "Filip Babić | Aleksandra Ignatoski | Kaja Pavlinić | Nikola Brežnjak | Rodolfo Dias",
+      "talkName": "Management and leadership - panel discussion"
+    },
+    {
+      "time": "13:00",
+      "name": "",
+      "talkName": "Lunch and networking break"
+    },
+    {
+      "time": "14:00",
+      "name": "Matija Šošić",
+      "talkName": "Why the Ultimate Web Framework Will be a Language (DSL)"
+    },
+    {
+      "time": "14:30",
+      "name": "Brando Koch",
+      "talkName": "Generative AI - What is it? How it works? Why it matters?"
+    },
+    {
+      "time": "15:00",
+      "name": "",
+      "talkName": "Coffee break"
+    },
+    {
+      "time": "15:30",
+      "name": "Guillermo Rodas",
+      "talkName": "WebAuth and Passkeys: The future of authentication"
+    },
+    {
+      "time": "16:00",
+      "name": "Tomislav Bronzin | Arian Stipić",
+      "talkName": "Why do we need middleware for the (G)AI"
+    },
+    {
+      "time": "16:30",
+      "name": "",
+      "talkName": "Coffee break"
+    },
+    {
+      "time": "16:45",
+      "name": "Sandro Lovnički | Matija Šošić | Petyo Ivanov | Ian Rumac",
+      "talkName": "Open Source - panel discussion"
+    },
+    {
+      "time": "18:15",
+      "name": "",
+      "talkName": "Closing Ceremony & Giveaway"
+    },
+    {
+      "time": "18:30",
+      "name": "",
+      "talkName": "Networking break - until the After party"
+    },
+    {
+      "time": "21:00-03:00",
+      "name": "",
+      "talkName": "After party"
+    }
+  ]
+}

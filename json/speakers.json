@@ -1,165 +1,172 @@
 {
-  "speakers": [
-    {
-      "time": "Panel",
-      "name": "Filip Babić",
-      "info": "Mobile team lead @ Teltech, Community lead @ GDG Osijek",
-      "talkName": "Host of Management panel discussion",
-      "talkInfo": "In this panel discussion, we will cover important topics, such as: How is management different today, vs 5 or 10 years ago?, Should a manager also be a leader and a coach?, Dealing with change in companies, The Difficulty of keping people around and many more!",
-      "imgSrc": "/speaker-photos/Filip.jpeg"
-    },
-    {
-      "time": "Panel",
-      "name": "Nikola Brežnjak",
-      "info": "VP of Engineering @ Teltech",
-      "talkName": "Management panel discussion",
-      "talkInfo": "I'm an engineer at heart and a jack of all trades kind of guy. For the last handful of years, I've been working at TelTech where we make innovative communications apps. Over the years  grew my team (40+ now) and am currently serving as a VP of Engineering responsible for our Mobile, Backend, Telco, Data, and QA departments. Nowadays I get my energy from seeing the people I lead perform on a world-class scale",
-      "imgSrc": "/speaker-photos/nikola.jpg"
-    },
-    {
-      "time": "Panel",
-      "name": "Ian Rumac",
-      "info": "All-kinds-of-software developer",
-      "talkName": "Management panel discussion",
-      "talkInfo": "A software consultant and developer, AI enthusiast, artist. Ian has been professionally writing software for the last 10 years, building applications for both small startups, large corporations and everything in between. When not writing code, he's talking about it, be it on meetups, online or among policy makers. ",
-      "imgSrc": "/speaker-photos/Ian.png"
-    },
-
-    {
-      "time": "Panel",
-      "name": "Aleksandra Ignatoski",
-      "info": "COO @ Aesuts Accounting",
-      "talkName": "Management panel discussion",
-      "talkInfo": "Aleksandra Ignatoski is the acting COO at Aestus Accounting. She's making sure that both the development of the application Parra and its quality of service are fully aligned with customer needs. She graduated in the field of management, but her passion towards technology and building something new drew her into IT product development.",
-      "imgSrc": "/speaker-photos/Aleksandra.png"
-    },
-    {
-      "time": "Panel",
-      "name": "Kaja Pavlinić",
-      "info": "COO @ Speck",
-      "talkName": "Management panel discussion",
-      "talkInfo": "Kaja Pavlinić is a Master of Science in Software Engineering and the Chief Operating Officer in Speck. Additionally, Kaja is an alumna of the US Department of State Exchange community, president of Sustainable Development Forum Green Window, owner of KAJUŠKA business, a mentor within the Clinton Global Initiative University initiative, and a Climate Pact ambassador. Kaja has more than 3.5 years of experience in the IT industry and over 10 years of experience in managing and organizing projects focused on youth and civil society. She currently lives and works in Croatia. Throughout her career, Kaja has received awards such as the „Future Leader“ from the Croatian Women's Network and the „30 Under 30“ award as part of the VIDI Awards. She has participated in the organization and implementation of several dozen local and international projects related to the IT industry, civil society, active citizenship, and youth. Her focus and passion are directed towards empowering youth, sustainable development, active citizenship, project management, business development, and IT.",
-      "imgSrc": "/speaker-photos/Kaja.png"
-    },
-    {
-      "time": "Panel",
-      "name": "Sandro Lovnički",
-      "info": "Flutterer @Friendly Fire, Community lead @ GDG Zagreb and @ Flutter Croatia ",
-      "talkName": "Host of Open Source panel discussion",
-      "talkInfo": "In this panel discussion, we will cover important topics, such as: Commercial Open Source, Relationship between OS and companies, maintainer responsibilites, Community relations and building community from the ground up, why go OS and many more!",
-      "imgSrc": "/speaker-photos/Sandro.jpeg"
-    },
-    {
-      "time": "Panel",
-      "name": "Matija Šošić",
-      "info": "CEO and Co-founder @ Wasp",
-      "talkName": "Open Source panel discussion",
-      "talkInfo": "Matija is the CEO & co-founder of Wasp together with his twin brother. This is the second startup they started together, funded by Y Combinator and top deep tech funds in 2021. Matija's background is an MSc in Computer Science from the University of Zagreb. His previous work spans from a research institute in Singapore to top-growing startups in NYC and London, covering fields of bioinformatics, mobile, and web development.",
-      "imgSrc": "/speaker-photos/Matija.png"
-    },
-    {
-      "time": "Panel",
-      "name": "Petyo Ivanov",
-      "info": "Full-time OS author and developer  @ mdxeditor.dev @ virtuoso.dev",
-      "talkName": "Open Source panel discussion",
-      "talkInfo": "A prolific GitHub star collector, Petyo is currently exploring the options of developing profitable bootstrapped business models with an open-source core.",
-      "imgSrc": "/speaker-photos/Petyo.jpg"
-    },
-    {
-      "time": "Talk",
-      "name": "Medhat Dawoud",
-      "info": "Senior Software Engineer @ Miro, GDE Web Technologies",
-      "talkName": "Embrace the web performance budget rituals",
-      "talkInfo": "In this talk I will use the dental metaphor in order to introduce the performance budgets just like brushing teeth everyday to keep them clean and healthy you should do the same for your website by setting a performance budget and check it in every pull request in your pipelines, the target audience is mid-level to advanced, I will start by the example of the tooth decay and cleaning them then brushing them everyday as the dentist advice, then explain decay as the performance issue and performance budgeting is like the toothpaste and go from here with the different techniques that developers can do in order to prevent any loss in the performance wins they made.",
-      "imgSrc": "/speaker-photos/Medhat.jpeg"
-    },
-    {
-      "time": "Talk",
-      "name": "Nicolas Frizzarin",
-      "info": "GDE Web technologies, Developer Advocate and Senior Staff Engineer @ Sfeir Luxembourg",
-      "talkName": "The digital age of web hydrations",
-      "talkInfo": "Hydration is a very large concept which is quite difficult to understand and apply. In this talk, you will get to know what web hydration really is and the different kinds of web hydration that are applicable for different use cases.",
-      "imgSrc": "/speaker-photos/Nicolas.jpg"
-    },
-    {
-      "time": "Talk",
-      "name": "Tomislav Bronzin",
-      "info": "CXO – Chief eXcitement Officer @ CITUS",
-      "talkName": "Why do we need middleware for the (G)AI",
-      "talkInfo": "Almost every day, new (generative) artificial intelligence services are emerging around the world. Wouldn't it be great if we had something to help us connect our apps to existing or new (G)AI services? This lecture describes how the middleware platform could be a solution to more easily catch up with the different APIs of existing and new services that are emerging.",
-      "imgSrc": "/speaker-photos/Tomislav.jpeg"
-    },
-    {
-      "time": "Talk",
-      "name": "Arian Stipić",
-      "info": "Strategic IT Consultant @ CITUS",
-      "talkName": "Why do we need middleware for the (G)AI",
-      "talkInfo": "Almost every day, new (generative) artificial intelligence services are emerging around the world. Wouldn't it be great if we had something to help us connect our apps to existing or new (G)AI services? This lecture describes how the middleware platform could be a solution to more easily catch up with the different APIs of existing and new services that are emerging.",
-      "imgSrc": "/speaker-photos/Arian.jpeg"
-    },
-    {
-      "time": "Talk",
-      "name": "Henry Lim",
-      "info": "GDE Web technologies",
-      "talkName": "Chrome DevTools LIVE LIVE LIVE",
-      "talkInfo": "Chrome DevTools is getting more and more powerful in the past few years. In this session, Henry will takes us through a tour of all the interesting, useful, as well as rarely-known features of DevTools in the form of live demo. Furthermore, he will also live demo the very first version of DevTools, DevTools behind-the-scene, and tips on contributing to DevTools.",
-      "imgSrc": "/speaker-photos/Henry.png"
-    },
-    {
-      "time": "Talk",
-      "name": "Guillermo Rodas",
-      "info": "GDE Web technologies, Senior Full-stack Engineer at EQT Group @ Motherbrain",
-      "talkName": " WebAuth and Passkeys: The future of authentication",
-      "talkInfo": "In the face of digital threats, strong, easy-to-use authentication is key. 'WebAuth and Passkeys: The future of authentication' examines WebAuth and Passkeys, their constraints, user experience effects, and cybersecurity impacts. Discover why these innovations could revolutionize online authentication.",
-      "imgSrc": "/speaker-photos/Guilermo.JPG"
-    },
-    {
-      "time": "Talk",
-      "name": "Balram Chavan",
-      "info": "GDE Web technologies, Architect, @ Boehringer Ingelheim",
-      "talkName": "Unleashing the Potential of AI Tools in Web Development ",
-      "talkInfo": "Embark on a journey that explores the seamless synergy of web development and cutting-edge AI capabilities. Discover how AI enhances code quality, testing precision, and offers insights into performance optimization.",
-      "imgSrc": "/speaker-photos/Balram.png"
-    },
-    {
-      "time": "Talk",
-      "name": "Himanshu Singh",
-      "info": "GDE Android and Kotlin, Senior Android Engineer @ NordVPN",
-      "talkName": "Elevating app performance",
-      "talkInfo": "With apps being developed at a rapid pace for diverse locales and users, it is crucial to continuously enhance app performance to provide an exceptional user experience. This talk will focus on various strategies to improve app performance and empower developers to create high-performing apps.",
-      "imgSrc": "/speaker-photos/Himanshu.jpg"
-    },
-    {
-      "time": "Talk",
-      "name": "Matthias Geisler",
-      "info": "Software Engineer @ LichtBlick SE",
-      "talkName": "TDD for Kotlin (and for Beginners)",
-      "talkInfo": "This talk will give a (brief) intro into TDD (with Kotlin), so that people lose their fear to try it themselves. Ever wondered what TDD is or 'how' you can use it? You think you cannot TDD projects in a reasonable time? You doubt the value of testing in any case. Well let me bring you the good word of TDD and what wonders it can for you!",
-      "imgSrc": "/speaker-photos/Matthias.jpg"
-    },
-    {
-      "time": "Talk",
-      "name": "Vasilika Klimova",
-      "info": "Developer Relations Engineer @ Kadena, GDE",
-      "talkName": "Happy Healthy Team",
-      "talkInfo": "How not to go crazy when you have just 2 weeks before the release, and the design is not yet fully ready? What if the important developers leave the team before the release? Let’s talk about how to build processes in a team to have a self-managing team with a healthy environment.",
-      "imgSrc": "/speaker-photos/Vasilika.jpg"
-    },
-    {
-      "time": "Talk",
-      "name": "Martin Jagodic",
-      "info": "Maintainer at Decap CMS",
-      "talkName": "Unleashing the Power of Git-Based Content Management Systems",
-      "talkInfo": "If you’re starting a small blog or if you’re scaling up an enterprise website, a headless Git-based CMS could be the content management solution you’re looking for. At this session, discover how storing your content with your code can speed up, simplify, and streamline your workflow and how making content developer-first makes everyone happier to contribute.",
-      "imgSrc": "/speaker-photos/Martin.png"
-    },
-    {
-      "time": "Talk",
-      "name": "Boris Martinović",
-      "info": "Software enginneer @ Euroherc Insurance, Community lead @ GDG Zagreb",
-      "talkName": "From Punch Cards to Predictive Coding",
-      "talkInfo": "We will go through the history of development workflow and how it could change in the near future. First, we will go through some of significant eras and advantages that were gained with incorporating new tech or processes. Afterwards, we will talk about how development workflows work now compared to before. Finally, we will be focusing on AI. More specifically, how AI could change our working and learning processes and compare this to some of more radical changes that happened before.",
-      "imgSrc": "/speaker-photos/Boris.jpg"
-    }
-  ]
+    "speakers": [
+        {
+            "type": "Talk",
+            "speakerName": "Marton Kodok",
+            "speakerInfo": "Senior Software Architect at REEA.net",
+            "name": "Function Calling with the Vertex AI Gemini API",
+            "info": "We will explore Google Cloud Platform - Vertex AI powered experiences, we are going to learn more about the integration of these generative AI APIs by developers to build and deploy AI-driven applications. Gemini is a family of generative AI models developed by Google DeepMind that is designed for multimodal use cases available for companies via Vertex AI.\n\nFunction calling lets developers create a description of a function in their code, then pass that description to a language model in a request. The response from the model includes the name of a function that matches the description and the arguments to call it with. In this session, you will learn how to use the Vertex AI Gemini API with the Vertex AI SDK for Python to make function calls via the Gemini Pro (gemini-pro) model.\n\nWe are going to cover the following interaction with the Gemini Pro model:\n\n- Generate function calls from a text prompt to get the weather for a given location\n- Generate function calls from a text prompt and call an external API to geocode addresses\n- Generate function calls from a chat prompt to help retail users\n\nAt the end of the session, developers will understand how to innovate with generative AI and develop apps using the generative ai industry trends.",
+            "imgSrc": "/speaker-photos/2024/marton-kodok.jpg"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Jason Quek",
+            "speakerInfo": "Global CTO of Devoteam GCloud",
+            "name": "Inference with LLMs on Cloud Run serverless GPU",
+            "info": "Modern Machine Learning Ops always relied on Kubernetes together with a framework with Kubeflow or MLFLow to be able to provision GPUs for inference or training on nodes. With Cloud Run GPUs, I will demo how to set up via terraform an LLM inference and training environment for use and go through cost calculations for different usage scenarios.",
+            "imgSrc": "/speaker-photos/2024/jason-quek.jpg"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Anuradha Kumari",
+            "speakerInfo": "Senior frontend developer at VodafoneZiggo",
+            "name": "Unleashing the Power of Chrome devtools for Web Accessibility Testing",
+            "info": "When it comes to testing for accessibility of our web apps, most of us would have used Chrome Lighthouse to generate a report and use the results to improve the accessibility of our web apps. However, that is not the only way to test for accessibility, and those tests can only detect a subset of issues. Do you know, there are many other ways in which we can test for accessibility using those same dev tools?\n\nIn this talk, we will delve beyond the conventional use of Chrome Lighthouse and uncover several alternative methods within the developer tools to test web accessibility. We will explore techniques such as inspecting the accessibility tree, gaining insights into ARIA attributes, emulating various vision disabilities, and more.\n\nSo, join me in this session, where we will unlock the potential of dev tools to unveil a diverse range of accessibility issues. Let's all learn together and improve how we test for web accessibility, and make the web inclusive for all our users.",
+            "imgSrc": "/speaker-photos/2024/anuradha-kumari.jpg"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Ankur Roy",
+            "speakerInfo": "Solutions Architect at Online Partner AB",
+            "name": "Understand how to use and reuse GCP's Cloud Foundation Fabric templates for quick and replicable deployments",
+            "info": "Cloud Foundation Fabric (https://github.com/GoogleCloudPlatform/cloud-foundation-fabric) is a set of Terraform templates provided by GCP to facilitate the deployment and re-deployment of GCP resources quickly and in a standardized manner.\n\nIn this session, we will take a look at some of these templates, look into how they work, and deploy a couple of them in a demo environment.",
+            "imgSrc": "/speaker-photos/2024/ankur-roy.jpg"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Alfredo Bautista Santos",
+            "speakerInfo": "Senior Software Developer at GreenFlux",
+            "name": "Flutter with Gemini, AI in your hand",
+            "info": "Have you heard of Flutter? The cross-platform framework developed by Google, with which you can deploy your applications on all platforms from the same code. But what about AI, right? We will also meet Gemini, Google's most advanced LLM, and how we can connect it to our Flutter applications in a very, very simple way. After this talk you will have no excuse to develop your next app.",
+            "imgSrc": "/speaker-photos/2024/alfredo-bautista-santos.jpg"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Vasudev Maduri",
+            "speakerInfo": "Staff Data Engineer at Admiral Group",
+            "name": "Unleashing the Power of Gemma: From Cloud to Edge",
+            "info": "Gemma, Google’s new family of lightweight, state-of-the-art open models. Built on the same research and technology as the groundbreaking Gemini models, Gemma empowers developers to create innovative applications across various platforms. We’ll cover the types of models available and how to customize them to tune for new tasks.\n\nThis session will explore the multifaceted capabilities of Gemma models, providing practical insights, demos, and code demonstrations for:\n\nKaggle: Building engaging chat applications using the Keras API and the Kaggle Model Hub.\n\nHugging Face: Leveraging the open collaboration between Google and Hugging Face for seamless integration and deployment.\n\nMobile: Experimenting with Gemma on-device using MediaPipe and TensorFlow Lite for cross-platform compatibility.\n\nLocal Machines: Running Gemma efficiently on laptops with Llama.cpp and quantized models.\n\nVertex AI: Streamlining AI development and deployment with Vertex AI’s comprehensive platform.\n\nWhether you’re a seasoned AI developer or just starting, this session will equip you with the knowledge and tools to harness the full potential of Gemma models. The session will conclude with a series of live demos showcasing the practical applications of these technologies.",
+            "imgSrc": "/speaker-photos/2024/vasudev-maduri.jpg"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Ian Rumac",
+            "speakerInfo": "Software developer & architect",
+            "name": "Back to the future with WebAssembly",
+            "info": "WebAssembly has been The Future of Programming™️ for quite some time now, but now that it's finally looking usable - is it worth the hype? Should I even care? Will it take my job?\nIf you want to know the answer to these questions (yes, yes and maybe), join me for a deep dive into the world of WebAssembly and let's learn how to use this technology of the future, today.",
+            "imgSrc": "/speaker-photos/Ian.png"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Dean Djermanović",
+            "speakerInfo": "Android Tech Lead at Endava",
+            "name": "Exploring Kotlin Symbol Processing",
+            "info": "In this session we’ll dive into the world of Kotlin Symbol Processing (KSP). This session aims to provide an introduction to KSP and its benefits compared to the Kotlin Annotation Processing Tool (KAPT).\n\nThe practical portion of this talk will guide you through the process of creating annotation definitions and implementing a symbol processor. We will demonstrate the usage of KSP API and KotlinPoet for generating Kotlin files, providing you with a hands-on experience of working with KSP. Furthermore, we will demonstrate how to use KSP in multiplatform projects.\n\nBy the end of this talk, you will walk away with a solid understanding of Kotlin Symbol Processing, and practical knowledge on how to leverage KSP in your development workflow.",
+            "imgSrc": "/speaker-photos/2024/dean-djermanovic.jpg"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Dinko Marinac",
+            "speakerInfo": "Self-employed at MOBILAPP Solutions d.o.o.",
+            "name": "Going Serverless with Dart",
+            "info": "You will learn how to write and deploy Dart logic in a serverless fashion using AWS and GCP.",
+            "imgSrc": "/speaker-photos/2024/dinko-marinac.jpg"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Josip Krnjic",
+            "speakerInfo": "Flutter Freelance/Consultant",
+            "name": "Become a Full Full-stack Developer",
+            "info": "It's not a typo. You heard about Full-Stack developers, but what about Full \"Full-Stack developers\" using power of Flutter and Dart. I'll cover how can Flutter and Dart work on many different platforms. So you can be like a one-man army, building apps for iOS, Android, Web, desktops, embedded and server.",
+            "imgSrc": "/speaker-photos/2024/josip-krnjic.png"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Bruno Banelli",
+            "speakerInfo": "C-level at Sartura/Turofield/Novarq",
+            "name": "Golang - from Google's experiment to polyvalent enterprise programming platform",
+            "info": "This talk will aggregate rapid advancement of Golang in a little bit more than 10 years, highlighting not only unquestionable technical prowess but also many other governing aspects that made Golang first class citizen among high level programming languages.\n\nHaving hands on demonstration, the idea is to show all the possibilities that Golang offers not only within the originally intended scope of work where Golang naturally excels, such as web services and similar applications, but covering full spread of various system applications, ranging from fully fledged one-binary root file system (initramfs) containing a busybox-like set of tools, following utilization of Golang as a plane for deploying system level application atop of the Linux kernel, all the way to shell and scripting environment with advanced features designed for usability, safety and productivity and deploying terminal user interfaces along with advanced Level 3 networking implementations such as BGP.\n\nFinally, a demonstration is to be made on an open source hardware showcasing full spread of Golang utilization.",
+            "imgSrc": "/speaker-photos/2024/bruno-banelli.jpg"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Lada Kovjanić",
+            "speakerInfo": "Senior software engineer at mStart d.o.o.",
+            "name": "Programming == wilderness survival",
+            "info": "Programming and wilderness survival, sound like two completely different terms or maybe not? A travel story about 6 months journey to the Western Sahara passing more than 5000 km by foot, car and bus. Living in nature and visiting the Sahrawi tribe taught me many skills that are very useful in application development. In this presentation we will discover why is a software development a lot like survival in the wild.",
+            "imgSrc": "/speaker-photos/2024/lada-kovjanic.jpg"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Emma Saroyan",
+            "speakerInfo": "Developer Advocate, Book Author",
+            "name": "AI ruined my code: My journey with ChatGPT",
+            "info": "Are we at one of the biggest inflection points in human history, given the disruption that Generative AI is creating? But what is Generative AI and why is it impacting the world in increasingly significant ways? I, the co-author of the book “Generative AI for Web Development: Building Web Applications Powered by OpenAI APIs and Next.js” soon to be published by Apress, will share with you what I learned about GenAI by writing a book about it.\n\nIn my talk, I will present, through practical examples, the pros and cons of the latest prompting techniques for generating code to build web apps, powered by OpenAI’s ChatGPT including:\n\nGenerating web apps with Next.js (Building a Language Learning App)\nThe legal and security issues you should be aware of including deploying or integrating web applications, sending sensitive data and copyright laws for commercial purposes\nActionable strategies like best practices and tips to get around the limitations of ChatGPT\n\nDepending on the session length, I will either keep it high-level or give hands-on experience with the technology.",
+            "imgSrc": "/speaker-photos/2024/emma-saroyan.jpg"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Dominik Šimoník",
+            "speakerInfo": "Software Engineer at Very Good Ventures",
+            "name": "To be announced",
+            "info": "Details coming soon 🤞",
+            "imgSrc": "/speaker-photos/2024/dominik-simonik.jpg"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Imran us Salam Mian",
+            "speakerInfo": "Machine Learning Engineer at Workwise",
+            "name": "Ray on Vertex AI",
+            "info": "What is Ray?\n\nA multiprocessing tool for large-scale training pipelines or even normal Python code. We review the details of what Ray is, and how to use it. And the similarities between Ray and Spark.",
+            "imgSrc": "/speaker-photos/2024/imran-us-salam-mian.jpg"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Seifeddine Mansri",
+            "speakerInfo": "Cloud CTO at Sfeir",
+            "name": "FinOps: A New Hope",
+            "info": "Migration to the cloud has changed the way infrastructure resources are consumed, forcing businesses to adopt a more flexible but sometimes uncertain consumption model.\n\nIn fact, the bill at the end of the month is never the same since you only pay for what you have consumed!\n\nDon't panic, this presentation is here to introduce you to FinOps practices which offer an effective solution for managing this new mode of consumption and optimizing value creation in a Google Cloud environment.",
+            "imgSrc": "/speaker-photos/2024/seifeddine-mansri.jpg"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Sachin Kumar",
+            "speakerInfo": "Chief Technology Officer at TupeloLife",
+            "name": "Building Powerful AI Agents using Vertex AI Agent Builder",
+            "info": "In this session, you will learn how to build your own production ready Gen AI Agents for your website or business using Google's latest Vertex AI Agent Builder. The session also covers step by step instructions on how to get started and show a real life demo of the implementation from start to finish. At the end of the session, you will be able to build your own GenAI chatbots/voicebots or AI agents and integrate with your website.",
+            "imgSrc": "/speaker-photos/2024/sachin-kumar.jpg"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Theofanis Prodromou",
+            "speakerInfo": "Front-End Lead at Architects",
+            "name": "Angular's Renaissance: Exploring the Latest Gems",
+            "info": "Unlock the power of Angular with an in-depth exploration of its latest features and improvements. Discover how these groundbreaking features empower you to build exceptional web applications with speed, efficiency, and unparalleled user experience, ensuring your applications remain at the forefront of innovation.",
+            "imgSrc": "/speaker-photos/2024/theofanis-prodromou.jpg"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Raouf Rahiche",
+            "speakerInfo": "GDE for Flutter/Dart",
+            "name": "A closer look at the blur effect in Flutter",
+            "info": "You're working on a Flutter app when you notice it's getting slow when you start blurring some widgets, but this doesn't happen to all other widgets. You start to wonder: When do these blurs actually slow things down? How do you replicate the nice blurs from Figma in your app? And what's really happening when you use blur that makes it so slow?\nJoin us as we dig deeper into how blur works, what types of blur Flutter offers, and how we can create our own.",
+            "imgSrc": "/speaker-photos/2024/raouf-rahiche.png"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Mangirdas Kazlauskas",
+            "speakerInfo": "Mobile Tech Lead at Billo",
+            "name": "Design Patterns toolbox: (not so) obvious patterns for app development",
+            "info": "Tired of the same old design patterns? This talk will introduce you to lesser-known but incredibly powerful techniques that can make your app development life easier. We'll explore multiple OOP design patterns, and show you how they can be used to create better, more flexible apps.",
+            "imgSrc": "/speaker-photos/2024/mangirdas-kazlauskas.jpg"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Josip Bartulović",
+            "speakerInfo": "Senior Software Engineer at SeekandHit",
+            "name": "Learn data engineering -- by \"stealing\" government data",
+            "info": "During this hands-on session listeners will get a feel of what a data engineers work looks like by building a complete data pipeline using government data.\n\nWe'll use the Croatian cadastre, an open dataset of land ownership to guide us through the four stages of the data lifecycle: ingestion, storage, processing and visualization.\n\nBy the end of the session, listeners will learn how to:\n1) Automate downloading the public dataset\n2) Store data into BigQuery\n3) Clean up and process large datasets in BigQuery\n4) Visualize the data in an interactive dashboard using Looker Studio.\n\nFinally, these four steps will be connected into a data pipeline orchestrated using Apache Airflow on Cloud Composer.",
+            "imgSrc": "/speaker-photos/2024/josip-bartulovic.jpg"
+        }
+    ]
 }
