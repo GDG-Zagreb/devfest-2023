@@ -12,6 +12,7 @@ import ImageGallery from '@/components/image-gallery';
 
 const MainPage = () => {
     const isAgendaAvailable = false;
+    const isSpeakersAvailable = false;
 
     return (
         <div className='container flex items-center justify-center px-4 mx-auto'>
@@ -52,13 +53,22 @@ const MainPage = () => {
                                 20+ speakers over 2 stages
                             </h2>
 
-                            <Link href='/speakers'>
-                                <Button className='w-128 h-16 rounded-full lg:text-xl border-2 border-solid border-black shadow-xl bg-white text-foreground hover:text-background dark:border-white dark:text-black'>
+                            {isSpeakersAvailable ? (
+                                <Link href='/speakers'>
+                                    <Button className='w-128 h-16 rounded-full lg:text-xl border-2 border-solid border-black shadow-xl bg-white text-foreground hover:text-background dark:border-white dark:text-black'>
+                                        <User2 className='mr-3'></User2>
+                                        <p>Meet the speakers</p>
+                                    </Button>
+                                </Link>
+                            ) : (
+                                <Button
+                                    className='w-128 h-16 rounded-full lg:text-xl border-2 border-solid border-black shadow-xl bg-white text-foreground hover:text-background dark:border-white dark:text-black'
+                                    disabled
+                                >
                                     <User2 className='mr-3'></User2>
-                                    <p>Meet the speakers</p>
+                                    <p>Meet the speakers - TBA</p>
                                 </Button>
-                            </Link>
-
+                            )}
                             {isAgendaAvailable ? (
                                 <Link href='/agenda'>
                                     <Button className='w-128 h-16 rounded-full lg:text-xl border-2 border-solid border-black shadow-xl bg-white text-foreground hover:text-background dark:border-white dark:text-black'>
