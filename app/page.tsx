@@ -7,6 +7,7 @@ import Image from 'next/image';
 import HeaderImageMedium from '@/public/assets/header-md@2x.png';
 import HeaderImageLarge from '@/public/assets/header-lg@2x.png';
 import GDGZagrebLogo from '@/public/assets/GDG-Zagreb-logo@3x.png';
+import SciplyLogo from '@/public/sponsors/SciPly_logo.png';
 import WTMLogo from '@/public/wtm-logo.png';
 import ImageGallery from '@/components/image-gallery';
 
@@ -137,7 +138,6 @@ const MainPage = () => {
                         Sponsors & Partners:
                     </h2>
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-12 '>
-                        <div></div>
                         <Link
                             href='https://www.thegeekgathering.org/'
                             target='_blank'
@@ -184,21 +184,33 @@ const MainPage = () => {
                             <Image
                                 src={GDGZagrebLogo}
                                 alt={'GDG Zagreb Logo'}
-                                height={50}
+                                height={40}
                             ></Image>
                         </Link>
-                        <Link
-                            href={
-                                'https://developers.google.com/womentechmakers'
-                            }
-                            target='_blank'
-                        >
-                            <Image
-                                src={WTMLogo}
-                                alt={'WTM Logo'}
-                                height={50}
-                            ></Image>
-                        </Link>
+                        <div className='flex flex-row gap-4'>
+                            <Link
+                                href={
+                                    'https://developers.google.com/womentechmakers'
+                                }
+                                target='_blank'
+                            >
+                                <Image
+                                    src={WTMLogo}
+                                    alt={'WTM Logo'}
+                                    height={35}
+                                ></Image>
+                            </Link>
+                            <Link
+                                href={'https://www.sciply.com/'}
+                                target='_blank'
+                            >
+                                <Image
+                                    src={SciplyLogo}
+                                    alt={'Sciply'}
+                                    height={40}
+                                ></Image>
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </div>
