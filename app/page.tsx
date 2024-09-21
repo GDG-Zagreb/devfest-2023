@@ -90,23 +90,6 @@ const MainPage = () => {
                                 Mobile | Web | Cloud | AI
                             </h2>
 
-                            {/* <div className='flex flex-col items-center py-4'>
-                                <h2 className='text-center w-full lg:text-2xl font-bold drop-shadow-2xl shadow-black/50 mb-4'>
-                                    Have an awesome talk?
-                                </h2>
-
-                                <Link
-                                    href='https://docs.google.com/forms/d/e/1FAIpQLScrrAm6aIN9C2WPPI3Ir1xQmtXz67SOE-qhE97YarNaPFiq9w/viewform'
-                                    target='_blank'
-                                    rel='noopener noreferrer'
-                                >
-                                    <Button className='w-128 h-16 rounded-full lg:text-xl border-2 border-solid border-black shadow-xl bg-white text-foreground hover:text-background dark:border-white dark:text-black'>
-                                        <Mic2 className='mr-3'></Mic2>
-                                        <p>Become a speaker</p>
-                                    </Button>
-                                </Link>
-                            </div> */}
-
                             <h2 className='text-center w-full lg:text-2xl font-bold drop-shadow-2xl shadow-black/50'>
                                 Food, drinks, a lot of networking
                             </h2>
@@ -149,86 +132,39 @@ const MainPage = () => {
                     </div>
                 </div>
 
-                {/* <div className='p-6 max-w-[1020px] rounded-2xl shadow-lg bg-white'>
+                <div className='p-6 max-w-[1020px] rounded-2xl shadow-lg bg-white'>
                     <h2 className='text-center text-black mb-8 w-full lg:text-3xl font-bold'>
-                        Sponsored by:
+                        Sponsors & Partners:
                     </h2>
-                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-12'>
-                        <Image
-                            className='rounded-2xl'
-                            src={'/sponsors/01--epam-logo.svg'}
-                            alt={'Epam Logo'}
-                            height={150}
-                            width={150}
-                        ></Image>
-                        <Image
-                            className='rounded-2xl'
-                            src={'/sponsors/02--A1-logo.svg'}
-                            alt={'A1 Logo'}
-                            height={150}
-                            width={150}
-                        ></Image>
-                        <Image
-                            className='rounded-2xl'
-                            src={'/sponsors/03--wespa-logo.svg'}
-                            alt={'Wespa Logo'}
-                            height={150}
-                            width={150}
-                        ></Image>
-                        <Image
-                            className='rounded-2xl'
-                            src={'/sponsors/04--teltech-logo.svg'}
-                            alt={'Teltech Logo'}
-                            height={150}
-                            width={150}
-                        ></Image>
-                        <Image
-                            className='rounded-2xl'
-                            src={'/sponsors/05--keeper-solutions-logo.svg'}
-                            alt={'Keeper solutions Logo'}
-                            height={150}
-                            width={150}
-                        ></Image>
-                        <Image
-                            className='rounded-2xl'
-                            src={'/sponsors/06--kapronca-logo.svg'}
-                            alt={'Kapronca Logo'}
-                            height={150}
-                            width={150}
-                        ></Image>
-                        <Image
-                            className='rounded-2xl'
-                            src={'/sponsors/SciPly_logo.png'}
-                            alt={'SciPly Logo'}
-                            height={150}
-                            width={150}
-                        ></Image>
-                        <Image
-                            className='rounded-2xl'
-                            src={'/sponsors/08--Arilus-logo.svg'}
-                            alt={'Arilus Logo'}
-                            height={150}
-                            width={150}
-                        ></Image>
-                        <Image
-                            className='rounded-2xl'
-                            src={'/sponsors/09--Kodeco-logo.webp'}
-                            alt={'Kodeco Logo'}
-                            height={150}
-                            width={150}
-                        ></Image>
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-12 '>
+                        <div></div>
+                        <Link
+                            href='https://www.thegeekgathering.org/'
+                            target='_blank'
+                        >
+                            <Image
+                                className='rounded'
+                                src={
+                                    '/partners/the-geek-gathering/TGG_logo_green.svg'
+                                }
+                                alt={'The Geek Gathering Logo'}
+                                height={150}
+                                width={150}
+                            />
+                        </Link>
                     </div>
-                </div> */}
+                </div>
 
                 <div className='p-6 max-w-[1020px] rounded-2xl shadow-lg bg-white'>
                     <h2 className='text-center text-black mb-8 w-full lg:text-3xl font-bold'>
-                        Sponsors & partners
+                        Want to become a sponsor or partner?
                     </h2>
                     <p className='text-center text-black mb-8 w-full'>
-                        Want to become a sponsor or partner?
+                        Let's connect! We have a variety of sponsorship
+                        packages.
                     </p>
                     <p className='text-center text-black mb-8 w-full'>
-                        Let's connect! Contact us at{' '}
+                        Contact us at{' '}
                         <a
                             href='mailto:zagrebgdg@gmail.com'
                             className='text-blue-500 underline'
@@ -239,6 +175,7 @@ const MainPage = () => {
                 </div>
 
                 <div className='p-6 max-w-[1020px] rounded-2xl shadow-lg bg-white'>
+                    <div></div>
                     <h2 className='text-center mb-8 w-full lg:text-3xl font-bold text-black'>
                         Organized by:
                     </h2>
