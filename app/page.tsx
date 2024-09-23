@@ -9,6 +9,7 @@ import HeaderImageLarge from '@/public/assets/header-lg@2x.png';
 import GDGZagrebLogo from '@/public/assets/GDG-Zagreb-logo@3x.png';
 import SciplyLogo from '@/public/sponsors/SciPly_logo.png';
 import WTMLogo from '@/public/wtm-logo.png';
+import GdgKrapinaLogo from '@/public/gdg-krapina-logo.png';
 import ImageGallery from '@/components/image-gallery';
 
 const MainPage = () => {
@@ -208,6 +209,18 @@ const MainPage = () => {
                                     src={SciplyLogo}
                                     alt={'Sciply'}
                                     height={40}
+                                ></Image>
+                            </Link>
+                        </div>
+                        <div className='flex flex-row  w-full justify-center'>
+                            <Link
+                                href='https://gdg.community.dev/gdg-krapina/'
+                                target='_blank'
+                            >
+                                <Image
+                                    src={GdgKrapinaLogo}
+                                    alt='GDG Krapina'
+                                    height={80}
                                 ></Image>
                             </Link>
                         </div>
