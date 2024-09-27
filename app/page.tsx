@@ -167,7 +167,7 @@ const MainPage = () => {
                         <Link href='https://www.epam.com/' target='_blank'>
                             <Image
                                 className='rounded'
-                                src='/sponsors/2024/01--EPAM-logo.svg'
+                                src='/sponsors/01--EPAM-logo.svg'
                                 alt={'EPAM Logo'}
                                 height={100}
                                 width={100}
@@ -176,7 +176,7 @@ const MainPage = () => {
                         <Link href='https://wespa.hr/en/' target='_blank'>
                             <Image
                                 className='rounded'
-                                src='/sponsors/2024/03--WESPA-logo.svg'
+                                src='/sponsors/03--WESPA-logo.svg'
                                 alt={'Wespa'}
                                 height={130}
                                 width={130}
