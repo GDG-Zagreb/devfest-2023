@@ -9,8 +9,12 @@ import HeaderImageLarge from '@/public/assets/header-lg@2x.png';
 import GDGZagrebLogo from '@/public/assets/GDG-Zagreb-logo@3x.png';
 import SciplyLogo from '@/public/sponsors/SciPly_logo.png';
 import WTMLogo from '@/public/wtm-logo.png';
-import GdgKrapinaLogo from '@/public/gdg-krapina-logo.png';
+import GDGKrapinaLogo from '@/public/gdg-krapina-logo.png';
+import GDGOsijekLogo from '@/public/gdg-osijek-logo.svg';
 import ImageGallery from '@/components/image-gallery';
+import SponsorEPAM from '@/public/sponsors/2024/01--EPAM-logo.svg';
+import SponsorA1 from '@/public/sponsors/2024/02--A1-logo.svg';
+import SponsorWespa from '@/public/sponsors/2024/03--WESPA-logo.svg';
 
 const MainPage = () => {
     const isAgendaAvailable = false;
@@ -138,7 +142,7 @@ const MainPage = () => {
                     <h2 className='text-center text-black mb-8 w-full lg:text-3xl font-bold'>
                         Sponsors & Partners:
                     </h2>
-                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-12 '>
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 place-items-center '>
                         <Link
                             href='https://www.thegeekgathering.org/'
                             target='_blank'
@@ -148,9 +152,37 @@ const MainPage = () => {
                                 src={
                                     '/partners/the-geek-gathering/TGG_logo_green.svg'
                                 }
-                                alt={'The Geek Gathering Logo'}
+                                alt={'The Geek Gathering'}
                                 height={150}
                                 width={150}
+                            />
+                        </Link>
+                        {/* awaiting official sponsor confirmation */}
+                        {/* <Link href='https://www.a1.hr/' target='_blank'>
+                            <Image
+                                className='rounded'
+                                src={SponsorA1}
+                                alt={'A1'}
+                                height={75}
+                                width={75}
+                            />
+                        </Link> */}
+                        <Link href='https://www.epam.com/' target='_blank'>
+                            <Image
+                                className='rounded'
+                                src={SponsorEPAM}
+                                alt={'EPAM Logo'}
+                                height={100}
+                                width={100}
+                            />
+                        </Link>
+                        <Link href='https://wespa.hr/en/' target='_blank'>
+                            <Image
+                                className='rounded'
+                                src={SponsorWespa}
+                                alt={'Wespa'}
+                                height={130}
+                                width={130}
                             />
                         </Link>
                     </div>
@@ -184,7 +216,7 @@ const MainPage = () => {
                         <Link href={'https://gdg.community.dev/gdg-zagreb/'}>
                             <Image
                                 src={GDGZagrebLogo}
-                                alt={'GDG Zagreb Logo'}
+                                alt={'GDG Zagreb'}
                                 height={40}
                             ></Image>
                         </Link>
@@ -197,7 +229,7 @@ const MainPage = () => {
                             >
                                 <Image
                                     src={WTMLogo}
-                                    alt={'WTM Logo'}
+                                    alt={'WTM'}
                                     height={35}
                                 ></Image>
                             </Link>
@@ -212,15 +244,27 @@ const MainPage = () => {
                                 ></Image>
                             </Link>
                         </div>
-                        <div className='flex flex-row  w-full justify-center'>
+                        <div className='flex flex-row w-full justify-center'>
+                            <Link
+                                href='https://gdg.community.dev/gdg-osijek/'
+                                target='_blank'
+                            >
+                                <Image
+                                    src={GDGOsijekLogo}
+                                    alt='GDG Osijek'
+                                    height={35}
+                                ></Image>
+                            </Link>
+                        </div>
+                        <div className='flex flex-row w-full justify-center'>
                             <Link
                                 href='https://gdg.community.dev/gdg-krapina/'
                                 target='_blank'
                             >
                                 <Image
-                                    src={GdgKrapinaLogo}
+                                    src={GDGKrapinaLogo}
                                     alt='GDG Krapina'
-                                    height={80}
+                                    height={100}
                                 ></Image>
                             </Link>
                         </div>
