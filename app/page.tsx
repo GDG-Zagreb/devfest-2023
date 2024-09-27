@@ -167,8 +167,8 @@ const MainPage = () => {
                         <Link href='https://www.epam.com/' target='_blank'>
                             <Image
                                 className='rounded'
-                                src='/sponsors/01--EPAM-logo.svg'
-                                alt={'EPAM Logo'}
+                                src='/sponsors/01--EPAM-logo.png'
+                                alt='EPAM Logo'
                                 height={100}
                                 width={100}
                             />
@@ -176,8 +176,8 @@ const MainPage = () => {
                         <Link href='https://wespa.hr/en/' target='_blank'>
                             <Image
                                 className='rounded'
-                                src='/sponsors/03--WESPA-logo.svg'
-                                alt={'Wespa'}
+                                src='/sponsors/03--WESPA-logo.png'
+                                alt='Wespa'
                                 height={130}
                                 width={130}
                             />
@@ -213,7 +213,7 @@ const MainPage = () => {
                         <Link href={'https://gdg.community.dev/gdg-zagreb/'}>
                             <Image
                                 src={GDGZagrebLogo}
-                                alt={'GDG Zagreb'}
+                                alt='GDG Zagreb'
                                 height={40}
                             ></Image>
                         </Link>
@@ -226,7 +226,7 @@ const MainPage = () => {
                             >
                                 <Image
                                     src={WTMLogo}
-                                    alt={'WTM'}
+                                    alt='WTM'
                                     height={35}
                                 ></Image>
                             </Link>
@@ -236,7 +236,7 @@ const MainPage = () => {
                             >
                                 <Image
                                     src={SciplyLogo}
-                                    alt={'Sciply'}
+                                    alt='Sciply'
                                     height={40}
                                 ></Image>
                             </Link>
