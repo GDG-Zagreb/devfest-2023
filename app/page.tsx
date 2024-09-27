@@ -12,9 +12,6 @@ import WTMLogo from '@/public/wtm-logo.png';
 import GDGKrapinaLogo from '@/public/gdg-krapina-logo.png';
 import GDGOsijekLogo from '@/public/gdg-osijek-logo.svg';
 import ImageGallery from '@/components/image-gallery';
-import SponsorEPAM from '@/public/sponsors/2024/01--EPAM-logo.svg';
-import SponsorA1 from '@/public/sponsors/2024/02--A1-logo.svg';
-import SponsorWespa from '@/public/sponsors/2024/03--WESPA-logo.svg';
 
 const MainPage = () => {
     const isAgendaAvailable = false;
@@ -161,7 +158,7 @@ const MainPage = () => {
                         {/* <Link href='https://www.a1.hr/' target='_blank'>
                             <Image
                                 className='rounded'
-                                src={SponsorA1}
+                                src='/sponsors/2024/02--A1-logo.svg'
                                 alt={'A1'}
                                 height={75}
                                 width={75}
@@ -170,7 +167,7 @@ const MainPage = () => {
                         <Link href='https://www.epam.com/' target='_blank'>
                             <Image
                                 className='rounded'
-                                src={SponsorEPAM}
+                                src='/sponsors/2024/01--EPAM-logo.svg'
                                 alt={'EPAM Logo'}
                                 height={100}
                                 width={100}
@@ -179,7 +176,7 @@ const MainPage = () => {
                         <Link href='https://wespa.hr/en/' target='_blank'>
                             <Image
                                 className='rounded'
-                                src={SponsorWespa}
+                                src='/sponsors/2024/03--WESPA-logo.svg'
                                 alt={'Wespa'}
                                 height={130}
                                 width={130}
