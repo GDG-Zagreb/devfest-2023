@@ -39,8 +39,11 @@ const MainPage = () => {
                             />
                         </div>
                         <h2 className='text-center w-full text-2xl md:text-4xl font-bold drop-shadow-2xl shadow-black/50 mb-10'>
-                            25th October 2024
+                            🗓️ 25th October 2024
                         </h2>
+                        <h3 className='text-center w-full text-xl md:text-2xl font-bold drop-shadow-2xl shadow-black/50 mb-10'>
+                            🕘 09:00 - 17:00 🕔
+                        </h3>
                         <div className='flex flex-col items-center gap-6'>
                             <Link
                                 href='https://www.entrio.hr/event/devfest-2024-18712'
@@ -53,7 +56,7 @@ const MainPage = () => {
                             </Link>
 
                             <h2 className='text-center w-full lg:text-4xl font-bold drop-shadow-2xl shadow-black/50'>
-                                20+ speakers over 2 stages
+                                15+ speakers over 2 stages
                             </h2>
 
                             {isSpeakersAvailable ? (
