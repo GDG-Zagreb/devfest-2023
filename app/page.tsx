@@ -185,6 +185,15 @@ const MainPage = () => {
                                 width={130}
                             />
                         </Link>
+                        <Link href='https://theplayoff.app/' target='_blank'>
+                            <Image
+                                className='rounded'
+                                src={'/partners/playoff/playoff-logo.svg'}
+                                alt={'Playoff'}
+                                height={130}
+                                width={130}
+                            />
+                        </Link>
                     </div>
                 </div>
 
