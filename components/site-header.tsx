@@ -36,18 +36,19 @@ export function SiteHeader() {
                                 </div>
                             </Button>
                         </Link>
-                        <Link
+                        {/* <Link
                             href='https://docs.google.com/forms/d/e/1FAIpQLScrrAm6aIN9C2WPPI3Ir1xQmtXz67SOE-qhE97YarNaPFiq9w/viewform'
                             target='_blank'
                             rel='noopener noreferrer'
-                        >
-                            <Button variant={'outline'}>
-                                <Mic2 className='h-4 w-4 lg:mr-2'></Mic2>
-                                <div className='hidden lg:inline'>
-                                    Become a speaker!
-                                </div>
-                            </Button>
-                        </Link>
+                            
+                        > */}
+                        <Button variant={'outline'} disabled>
+                            <Mic2 className='h-4 w-4 lg:mr-2'></Mic2>
+                            <div className='hidden lg:inline'>
+                                Become a speaker!
+                            </div>
+                        </Button>
+                        {/* </Link> */}
                         <Link
                             href='https://www.entrio.hr/event/devfest-2024-18712'
                             target='_blank'
