@@ -14,7 +14,7 @@ import GDGOsijekLogo from '@/public/gdg-osijek-logo.svg';
 import ImageGallery from '@/components/image-gallery';
 
 const MainPage = () => {
-    const isAgendaAvailable = false;
+    const isAgendaAvailable = true;
     const isSpeakersAvailable = true;
 
     return (
@@ -56,7 +56,7 @@ const MainPage = () => {
                             </Link>
 
                             <h2 className='text-center w-full lg:text-4xl font-bold drop-shadow-2xl shadow-black/50'>
-                                15+ speakers over 2 stages
+                                18 speakers over 2 stages
                             </h2>
 
                             {isSpeakersAvailable ? (
