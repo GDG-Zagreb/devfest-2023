@@ -56,7 +56,7 @@ const MainPage = () => {
                             </Link>
 
                             <h2 className='text-center w-full lg:text-4xl font-bold drop-shadow-2xl shadow-black/50'>
-                                18 speakers over 2 stages
+                                19 speakers over 2 stages
                             </h2>
 
                             {isSpeakersAvailable ? (
