@@ -157,8 +157,7 @@ const MainPage = () => {
                                 width={150}
                             />
                         </Link>
-                        {/* awaiting official sponsor confirmation */}
-                        {/* <Link href='https://www.a1.hr/' target='_blank'>
+                        <Link href='https://www.a1.hr/' target='_blank'>
                             <Image
                                 className='rounded'
                                 src='/sponsors/2024/02--A1-logo.svg'
@@ -166,7 +165,7 @@ const MainPage = () => {
                                 height={75}
                                 width={75}
                             />
-                        </Link> */}
+                        </Link>
                         <Link href='https://www.epam.com/' target='_blank'>
                             <Image
                                 className='rounded'
@@ -176,6 +175,7 @@ const MainPage = () => {
                                 width={100}
                             />
                         </Link>
+
                         <Link href='https://wespa.hr/en/' target='_blank'>
                             <Image
                                 className='rounded'
@@ -185,6 +185,7 @@ const MainPage = () => {
                                 width={130}
                             />
                         </Link>
+
                         <Link href='https://theplayoff.app/' target='_blank'>
                             <Image
                                 className='rounded'
@@ -192,6 +193,20 @@ const MainPage = () => {
                                 alt={'Playoff'}
                                 height={130}
                                 width={130}
+                            />
+                        </Link>
+                        <Link
+                            href='https://friendlyfireesports.com/'
+                            target='_blank'
+                        >
+                            <Image
+                                className='rounded'
+                                src={
+                                    '/partners/friendly-fire/friendly-fire-logo.svg'
+                                }
+                                alt={'Friendly Fire'}
+                                height={150}
+                                width={150}
                             />
                         </Link>
                     </div>

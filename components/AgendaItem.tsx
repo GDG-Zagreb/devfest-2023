@@ -17,7 +17,7 @@ const AgendaItem = ({ talk }: AgendaItemProps) => {
         <div className='flex flex-col lg:flex-row p-3 gap-6 justify-between border rounded-lg bg-background'>
             <div className='flex flex-row gap-4 items-center sm:w-full md:w-5/6 lg:w-2/3 '>
                 <div className='text-font-semibold'>{talk.time}</div>
-                <div className='text-bold text-2xl md:w-4/5 lg:w-full'>
+                <div className='text-bold text-xl md:text-2xl md:w-4/5 lg:w-full'>
                     {talk.name}
                 </div>
             </div>
