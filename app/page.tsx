@@ -209,6 +209,24 @@ const MainPage = () => {
                                 width={150}
                             />
                         </Link>
+                        <Link href='https://huddle.tech/' target='_blank'>
+                            <Image
+                                className='rounded'
+                                src={'/sponsors/2024/04--huddle-tech-logo.svg'}
+                                alt={'Huddle'}
+                                height={150}
+                                width={150}
+                            />
+                        </Link>
+                        <Link href='https://arilus.hr/' target='_blank'>
+                            <Image
+                                className='rounded'
+                                src={'/sponsors/08--Arilus-logo.svg'}
+                                alt={'Arilus'}
+                                height={75}
+                                width={75}
+                            />
+                        </Link>
                     </div>
                 </div>
 
