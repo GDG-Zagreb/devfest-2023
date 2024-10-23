@@ -227,6 +227,15 @@ const MainPage = () => {
                                 width={75}
                             />
                         </Link>
+                        <Link href='https://bazzar.hr/' target='_blank'>
+                            <Image
+                                className='rounded'
+                                src={'/sponsors/2024/bazzar-logo@4x.png'}
+                                alt={'Bazzar'}
+                                height={120}
+                                width={120}
+                            />
+                        </Link>
                     </div>
                 </div>
 
