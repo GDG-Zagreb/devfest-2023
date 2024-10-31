@@ -27,13 +27,16 @@ export const metadata: Metadata = {
         },
     ],
     creator: 'martinovicdev',
+    icons: {
+        icon: '/GDG-logo.png',
+    },
+};
+
+export const viewport = {
     themeColor: [
         { media: '(prefers-color-scheme: light)', color: 'white' },
         { media: '(prefers-color-scheme: dark)', color: 'black' },
     ],
-    icons: {
-        icon: '/GDG-logo.png',
-    },
 };
 
 export default function RootLayout({
@@ -42,7 +45,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }) {
     return (
-        <html lang='en'>
+        <html lang='en' suppressHydrationWarning>
             <body
                 className={cn(
                     'flex flex-col min-h-screen dark:from-zinc-950 dark:via-zinc-900 dark:to-zinc-950',
@@ -55,8 +58,8 @@ export default function RootLayout({
                     enableSystem
                 >
                     <SiteHeader />
-                    <div className='flex-1 bg-image-light dark:bg-image-dark flex flex-col'>
-                        <div className='flex-1'>{children}</div>
+                    <div className='flex-1 bg-image-light dark:bg-image-dark'>
+                        {children}
                     </div>
                     <SiteFooter />
                 </ThemeProvider>

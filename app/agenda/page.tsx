@@ -1,3 +1,5 @@
+'use client';
+
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import enter from '@/json/enter.json';
 import shift from '@/json/shift.json';
@@ -24,14 +26,14 @@ export default function Agenda() {
                 <TabsContent value='enter'>
                     <div className='flex flex-col gap-3'>
                         {enter.talks.map((talk) => {
-                            return <AgendaItem talk={talk} />;
+                            return <AgendaItem talk={talk} key={talk.id} />;
                         })}
                     </div>
                 </TabsContent>
                 <TabsContent value='shift'>
                     <div className='flex flex-col gap-3'>
                         {shift.talks.map((talk) => {
-                            return <AgendaItem talk={talk} />;
+                            return <AgendaItem talk={talk} key={talk.id} />;
                         })}
                     </div>
                 </TabsContent>

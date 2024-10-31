@@ -2,11 +2,13 @@
     "talks": [
         {
             "time": "09:00",
-            "name": "Registration and networking"
+            "name": "Registration and networking",
+            "id": 1
         },
         {
             "time": "09:45",
-            "name": "Introduction and welcome"
+            "name": "Introduction and welcome",
+            "id": 2
         },
         {
             "time": "10:00",
@@ -15,7 +17,8 @@
             "speakerInfo": "Senior software engineer at mStart d.o.o.",
             "name": "Programming == wilderness survival",
             "info": "Programming and wilderness survival, sound like two completely different terms or maybe not? A travel story about 6 months journey to the Western Sahara passing more than 5000 km by foot, car and bus. Living in nature and visiting the Sahrawi tribe taught me many skills that are very useful in application development. In this presentation we will discover why is a software development a lot like survival in the wild.",
-            "imgSrc": "/speaker-photos/2024/lada-kovjanic.jpeg"
+            "imgSrc": "/speaker-photos/2024/lada-kovjanic.jpeg",
+            "id": 3
         },
         {
             "time": "10:30",
@@ -24,12 +27,14 @@
             "speakerInfo": "Senior Software Engineer at SeekandHit",
             "name": "Learn data engineering -- by \"stealing\" government data",
             "info": "During this hands-on session listeners will get a feel of what a data engineers work looks like by building a complete data pipeline using government data.\n\nWe'll use the Croatian cadastre, an open dataset of land ownership to guide us through the four stages of the data lifecycle: ingestion, storage, processing and visualization.\n\nBy the end of the session, listeners will learn how to:\n1) Automate downloading the public dataset\n2) Store data into BigQuery\n3) Clean up and process large datasets in BigQuery\n4) Visualize the data in an interactive dashboard using Looker Studio.\n\nFinally, these four steps will be connected into a data pipeline orchestrated using Apache Airflow on Cloud Composer.",
-            "imgSrc": "/speaker-photos/2024/josip-bartulovic.jpg"
+            "imgSrc": "/speaker-photos/2024/josip-bartulovic.jpg",
+            "id": 4
         },
         {
             "time": "11:00",
             "speakerName": "",
-            "name": "Short break"
+            "name": "Short break",
+            "id": 5
         },
         {
             "time": "11:15",
@@ -38,7 +43,8 @@
             "speakerInfo": "Senior Software Architect at REEA.net",
             "name": "Function Calling with the Vertex AI Gemini API",
             "info": "We will explore Google Cloud Platform - Vertex AI powered experiences, we are going to learn more about the integration of these generative AI APIs by developers to build and deploy AI-driven applications. Gemini is a family of generative AI models developed by Google DeepMind that is designed for multimodal use cases available for companies via Vertex AI.\n\nFunction calling lets developers create a description of a function in their code, then pass that description to a language model in a request. The response from the model includes the name of a function that matches the description and the arguments to call it with. In this session, you will learn how to use the Vertex AI Gemini API with the Vertex AI SDK for Python to make function calls via the Gemini Pro (gemini-pro) model.\n\nWe are going to cover the following interaction with the Gemini Pro model:\n\n- Generate function calls from a text prompt to get the weather for a given location\n- Generate function calls from a text prompt and call an external API to geocode addresses\n- Generate function calls from a chat prompt to help retail users\n\nAt the end of the session, developers will understand how to innovate with generative AI and develop apps using the generative ai industry trends.",
-            "imgSrc": "/speaker-photos/2024/marton-kodok.jpg"
+            "imgSrc": "/speaker-photos/2024/marton-kodok.jpg",
+            "id": 6
         },
         {
             "time": "11:45",
@@ -47,12 +53,14 @@
             "speakerInfo": "Solutions Architect at Online Partner AB",
             "name": "Understand how to use and reuse GCP's Cloud Foundation Fabric templates for quick and replicable deployments",
             "info": "Cloud Foundation Fabric (https://github.com/GoogleCloudPlatform/cloud-foundation-fabric) is a set of Terraform templates provided by GCP to facilitate the deployment and re-deployment of GCP resources quickly and in a standardized manner.\n\nIn this session, we will take a look at some of these templates, look into how they work, and deploy a couple of them in a demo environment.",
-            "imgSrc": "/speaker-photos/2024/ankur-roy.jpg"
+            "imgSrc": "/speaker-photos/2024/ankur-roy.jpg",
+            "id": 7
         },
         {
             "time": "12:15",
             "speakerName": "",
-            "name": "Short break"
+            "name": "Short break",
+            "id": 8
         },
         {
             "time": "12:30",
@@ -61,7 +69,8 @@
             "speakerInfo": "Cloud CTO at SFEIR | GDE",
             "name": "FinOps: A New Hope",
             "info": "Migration to the cloud has changed the way infrastructure resources are consumed, forcing businesses to adopt a more flexible but sometimes uncertain consumption model.\n\nIn fact, the bill at the end of the month is never the same since you only pay for what you have consumed!\n\nDon't panic, this presentation is here to introduce you to FinOps practices which offer an effective solution for managing this new mode of consumption and optimizing value creation in a Google Cloud environment.",
-            "imgSrc": "/speaker-photos/2024/seifeddin-mansri.jpeg"
+            "imgSrc": "/speaker-photos/2024/seifeddin-mansri.jpeg",
+            "id": 9
         },
         {
             "time": "13:00",
@@ -70,12 +79,14 @@
             "speakerInfo": "Freelance Flutter Developer",
             "name": "Unlocking Innovation with Firebase GenKit",
             "info": "In this talk, we'll explore Firebase GenKit, focusing on how structured data generation can streamline app development and enhance user experiences. The session will feature interactive demos that highlight GenKit’s capabilities in generating structured data for different use cases, providing practical insights and tips for integrating GenKit into your app development workflow effectively.",
-            "imgSrc": "/speaker-photos/2024/dominik-simonik.jpg"
+            "imgSrc": "/speaker-photos/2024/dominik-simonik.jpg",
+            "id": 10
         },
         {
             "time": "13:30",
             "speakerName": "",
-            "name": "Lunch and networking break 🍴 🛜"
+            "name": "Lunch and networking break 🍴 🛜",
+            "id": 11
         },
         {
             "time": "14:30",
@@ -84,7 +95,8 @@
             "speakerInfo": "WTM Ambassador",
             "name": "AI ruined my code: My journey with ChatGPT",
             "info": "What is Generative AI and why is it impacting the world in increasingly significant ways? Emma, the co-author of the book “Generative AI for Web Development: Building Web Applications Powered by OpenAI APIs and Next.js”, will share with you what she learned about GenAI by writing a book about it. In this talk, she will present an example with Next.js, and discuss best practices and actionable strategies to get around the limitations of ChatGPT.",
-            "imgSrc": "/speaker-photos/2024/emma-saroyan.jpg"
+            "imgSrc": "/speaker-photos/2024/emma-saroyan.jpg",
+            "id": 12
         },
         {
             "time": "15:00",
@@ -93,12 +105,14 @@
             "speakerInfo": "Mobile Tech Lead at Billo",
             "name": "Design Patterns toolbox: (not so) obvious patterns for app development",
             "info": "Tired of the same old design patterns? This talk will introduce you to lesser-known but incredibly powerful techniques that can make your app development life easier. We'll explore multiple OOP design patterns, and show you how they can be used to create better, more flexible apps.",
-            "imgSrc": "/speaker-photos/2024/mangirdas-kazlauskas.jpg"
+            "imgSrc": "/speaker-photos/2024/mangirdas-kazlauskas.jpg",
+            "id": 13
         },
         {
             "time": "15:30",
             "speakerName": "",
-            "name": "Coffee break ☕"
+            "name": "Coffee break ☕",
+            "id": 14
         },
         {
             "time": "16:00",
@@ -107,7 +121,8 @@
             "speakerInfo": "Senior Software Developer at GreenFlux",
             "name": "Flutter with Gemini, AI in your hand",
             "info": "Have you heard of Flutter? The cross-platform framework developed by Google, with which you can deploy your applications on all platforms from the same code. But what about AI, right? We will also meet Gemini, Google's most advanced LLM, and how we can connect it to our Flutter applications in a very, very simple way. After this talk you will have no excuse to develop your next app.",
-            "imgSrc": "/speaker-photos/2024/alfredo-bautista-santos.jpg"
+            "imgSrc": "/speaker-photos/2024/alfredo-bautista-santos.jpg",
+            "id": 15
         },
         {
             "time": "16:30",
@@ -116,17 +131,20 @@
             "speakerInfo": "Developer Advocate at GitLab",
             "name": "Hey AI, Did I hear Risks?",
             "info": "AI is now everywhere, and every technology service provider is jumping on the bandwagon to sell AI features in one form or another. It goes beyond technology tools; AI is now integrated into many parts of society. All these bring risks like bias, privacy concerns, lack of transparency, unintended consequences, and AI-specific risks like Prompt subversion, Hallucinations, Model Backdoor, AI infrastructure, and Model weaponization. Ethical development and deployment of AI systems are crucial for building public trust and minimizing potential harm. In this talk, Abubakar will share how we can mitigate risks in AI by adopting secure AI best practices and how the Secure AI framework (SAIF) can help.",
-            "imgSrc": "/speaker-photos/2024/abubakar-siddiq-ango.jpg"
+            "imgSrc": "/speaker-photos/2024/abubakar-siddiq-ango.jpg",
+            "id": 16
         },
         {
             "time": "17:00",
             "speakerName": "",
-            "name": "Closing ceremony, giveaway"
+            "name": "Closing ceremony, giveaway",
+            "id": 17
         },
         {
             "time": "17:30",
             "speakerName": "",
-            "name": "Networking, fun activities, after-party 🥳"
+            "name": "Networking, fun activities, after-party 🥳",
+            "id": 18
         }
     ]
 }

@@ -1,3 +1,5 @@
+'use client';
+
 import AgendaCard from '@/components/agenda-card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import enter from '@/json/archive/2023/enter.json';

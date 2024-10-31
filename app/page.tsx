@@ -1,8 +1,7 @@
+'use client';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
-import { Link2, LinkIcon, Mic2, Table2, Ticket, User2 } from 'lucide-react';
-import { Skeleton } from '@/components/ui/skeleton';
-import { Suspense } from 'react';
+import { Table2, Ticket, User2 } from 'lucide-react';
 import Image from 'next/image';
 import HeaderImageMedium from '@/public/assets/header-md@2x.png';
 import HeaderImageLarge from '@/public/assets/header-lg@2x.png';
@@ -26,15 +25,15 @@ const MainPage = () => {
                             <Image
                                 src={HeaderImageMedium}
                                 alt='Header Image'
-                                layout='fit'
-                                objectFit='cover'
+                                // layout='fit'
+                                // objectFit='cover'
                                 className='block lg:hidden'
                             />
                             <Image
                                 src={HeaderImageLarge}
                                 alt='Header Image'
-                                layout='fit'
-                                objectFit='cover'
+                                // layout='fit'
+                                // objectFit='cover'
                                 className='hidden lg:block'
                             />
                         </div>
@@ -123,7 +122,7 @@ const MainPage = () => {
                                     src={'/wespa-lounge.jpg'}
                                     alt={'Wespa spaces lounge'}
                                     height={300}
-                                    width={449}
+                                    width={300}
                                 ></Image>
                             </div>
                             <div className='w-full lg:h-[300px]'>
@@ -236,7 +235,10 @@ const MainPage = () => {
                                 width={120}
                             />
                         </Link>
-                        <Link href='https://www.uber.com/hr/hr/' target='_blank'>
+                        <Link
+                            href='https://www.uber.com/hr/hr/'
+                            target='_blank'
+                        >
                             <Image
                                 className='rounded'
                                 src={'/partners/uber/uber_logo.png'}
