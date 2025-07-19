@@ -1,16 +1,16 @@
 'use client';
-import ImageGallery from '@/components/image-gallery';
 import { Button } from '@/components/ui/button';
-import GDGZagrebLogo from '@/public/assets/GDG-Zagreb-logo@3x.png';
-import HeaderImageLarge from '@/public/assets/header-lg@2x.png';
-import HeaderImageMedium from '@/public/assets/header-md@2x.png';
-import GDGKrapinaLogo from '@/public/gdg-krapina-logo.png';
-import GDGOsijekLogo from '@/public/gdg-osijek-logo.svg';
-import SciplyLogo from '@/public/sponsors/SciPly_logo.png';
-import WTMLogo from '@/public/wtm-logo.png';
+import Link from 'next/link';
 import { Table2, Ticket, User2 } from 'lucide-react';
 import Image from 'next/image';
-import Link from 'next/link';
+import HeaderImageMedium from '@/public/assets/header-md@2x.png';
+import HeaderImageLarge from '@/public/assets/header-lg@2x.png';
+import GDGZagrebLogo from '@/public/assets/GDG-Zagreb-logo@3x.png';
+import SciplyLogo from '@/public/sponsors/SciPly_logo.png';
+import WTMLogo from '@/public/wtm-logo.png';
+import GDGKrapinaLogo from '@/public/gdg-krapina-logo.png';
+import GDGOsijekLogo from '@/public/gdg-osijek-logo.svg';
+import ImageGallery from '@/components/image-gallery';
 
 const MainPage = () => {
     const isAgendaAvailable = true;
@@ -38,7 +38,7 @@ const MainPage = () => {
                             />
                         </div>
                         <h2 className='text-center w-full text-2xl md:text-4xl font-bold drop-shadow-2xl shadow-black/50 mb-10'>
-                            🗓️ 24th October 2025
+                            🗓️ 25th October 2024
                         </h2>
                         <h3 className='text-center w-full text-xl md:text-2xl font-bold drop-shadow-2xl shadow-black/50 mb-10'>
                             🕘 09:00 - 17:00 🕔
@@ -139,7 +139,7 @@ const MainPage = () => {
 
                 <div className='p-6 max-w-[1020px] rounded-2xl shadow-lg bg-white'>
                     <h2 className='text-center text-black mb-8 w-full lg:text-3xl font-bold'>
-                        Sponsors & Partners from DevFest 2024:
+                        Sponsors & Partners:
                     </h2>
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 place-items-center '>
                         <Link
@@ -252,7 +252,7 @@ const MainPage = () => {
 
                 <div className='p-6 max-w-[1020px] rounded-2xl shadow-lg bg-white'>
                     <h2 className='text-center text-black mb-8 w-full lg:text-3xl font-bold'>
-                        Want to become a sponsor or partner for DevFest 2025?
+                        Want to become a sponsor or partner?
                     </h2>
                     <p className='text-center text-black mb-8 w-full'>
                         Let's connect! We have a variety of sponsorship
@@ -264,7 +264,7 @@ const MainPage = () => {
                             href='mailto:zagrebgdg@gmail.com'
                             className='text-blue-500 underline'
                         >
-                            zagrebgdg@gmail.com
+                            zagrebgdg[at]gmail.com
                         </a>
                     </p>
                 </div>

@@ -1,0 +1,164 @@
+{
+    "speakers": [
+        {
+            "type": "Talk",
+            "speakerName": "Marton Kodok",
+            "speakerInfo": "Senior Software Architect at REEA.net",
+            "name": "Function Calling with the Vertex AI Gemini API",
+            "info": "We will explore Google Cloud Platform - Vertex AI powered experiences, we are going to learn more about the integration of these generative AI APIs by developers to build and deploy AI-driven applications. Gemini is a family of generative AI models developed by Google DeepMind that is designed for multimodal use cases available for companies via Vertex AI.\n\nFunction calling lets developers create a description of a function in their code, then pass that description to a language model in a request. The response from the model includes the name of a function that matches the description and the arguments to call it with. In this session, you will learn how to use the Vertex AI Gemini API with the Vertex AI SDK for Python to make function calls via the Gemini Pro (gemini-pro) model.\n\nWe are going to cover the following interaction with the Gemini Pro model:\n\n- Generate function calls from a text prompt to get the weather for a given location\n- Generate function calls from a text prompt and call an external API to geocode addresses\n- Generate function calls from a chat prompt to help retail users\n\nAt the end of the session, developers will understand how to innovate with generative AI and develop apps using the generative ai industry trends.",
+            "imgSrc": "/speaker-photos/2024/marton-kodok.jpg"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Ankur Roy",
+            "speakerInfo": "Solutions Architect at Online Partner AB",
+            "name": "Understand how to use and reuse GCP's Cloud Foundation Fabric templates for quick and replicable deployments",
+            "info": "Cloud Foundation Fabric (https://github.com/GoogleCloudPlatform/cloud-foundation-fabric) is a set of Terraform templates provided by GCP to facilitate the deployment and re-deployment of GCP resources quickly and in a standardized manner.\n\nIn this session, we will take a look at some of these templates, look into how they work, and deploy a couple of them in a demo environment.",
+            "imgSrc": "/speaker-photos/2024/ankur-roy.jpg"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Alfredo Bautista Santos",
+            "speakerInfo": "Senior Software Developer at GreenFlux",
+            "name": "Flutter with Gemini, AI in your hand",
+            "info": "Have you heard of Flutter? The cross-platform framework developed by Google, with which you can deploy your applications on all platforms from the same code. But what about AI, right? We will also meet Gemini, Google's most advanced LLM, and how we can connect it to our Flutter applications in a very, very simple way. After this talk you will have no excuse to develop your next app.",
+            "imgSrc": "/speaker-photos/2024/alfredo-bautista-santos.jpg"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Berislav Grgičak",
+            "speakerInfo": "WordPress contributor",
+            "name": "Let's build a LAMP stack in the browser and run WordPress without a server",
+            "info": "Learn what it takes to build a LAMP stack alternative in JavaScript using modern features like WebAssembly. We will explore how WordPress Playground runs WordPress in a browser and Node.js without a server even while offline.",
+            "imgSrc": "/speaker-photos/2024/berislav-grgicak.png"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Ian Rumac",
+            "speakerInfo": "Software developer & architect",
+            "name": "Back to the future with WebAssembly",
+            "info": "WebAssembly has been The Future of Programming™️ for quite some time now, but now that it's finally looking usable - is it worth the hype? Should I even care? Will it take my job?\nIf you want to know the answer to these questions (yes, yes and maybe), join me for a deep dive into the world of WebAssembly and let's learn how to use this technology of the future, today.",
+            "imgSrc": "/speaker-photos/Ian.png"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Dean Djermanović",
+            "speakerInfo": "Android Tech Lead at Endava",
+            "name": "Exploring Kotlin Symbol Processing",
+            "info": "In this session we’ll dive into the world of Kotlin Symbol Processing (KSP). This session aims to provide an introduction to KSP and its benefits compared to the Kotlin Annotation Processing Tool (KAPT).\n\nThe practical portion of this talk will guide you through the process of creating annotation definitions and implementing a symbol processor. We will demonstrate the usage of KSP API and KotlinPoet for generating Kotlin files, providing you with a hands-on experience of working with KSP. Furthermore, we will demonstrate how to use KSP in multiplatform projects.\n\nBy the end of this talk, you will walk away with a solid understanding of Kotlin Symbol Processing, and practical knowledge on how to leverage KSP in your development workflow.",
+            "imgSrc": "/speaker-photos/2024/dean-djermanovic.jpg"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Dinko Marinac",
+            "speakerInfo": "Self-employed at MOBILAPP Solutions d.o.o.",
+            "name": "Going Serverless with Dart",
+            "info": "You will learn how to write and deploy Dart logic in a serverless fashion using AWS and GCP.",
+            "imgSrc": "/speaker-photos/2024/dinko-marinac.jpg"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Josip Krnjić",
+            "speakerInfo": "Flutter Freelance/Consultant",
+            "name": "Become a Full Full-stack Developer",
+            "info": "It's not a typo. You heard about Full-Stack developers, but what about Full \"Full-Stack developers\" using power of Flutter and Dart. I'll cover how can Flutter and Dart work on many different platforms. So you can be like a one-man army, building apps for iOS, Android, Web, desktops, embedded and server.",
+            "imgSrc": "/speaker-photos/2024/josip-krnjic.png"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Bruno Banelli",
+            "speakerInfo": "C-level at Sartura/Turofield/Novarq",
+            "name": "Golang - from Google's experiment to polyvalent enterprise programming platform",
+            "info": "This talk will aggregate rapid advancement of Golang in a little bit more than 10 years, highlighting not only unquestionable technical prowess but also many other governing aspects that made Golang first class citizen among high level programming languages.\n\nHaving hands on demonstration, the idea is to show all the possibilities that Golang offers not only within the originally intended scope of work where Golang naturally excels, such as web services and similar applications, but covering full spread of various system applications, ranging from fully fledged one-binary root file system (initramfs) containing a busybox-like set of tools, following utilization of Golang as a plane for deploying system level application atop of the Linux kernel, all the way to shell and scripting environment with advanced features designed for usability, safety and productivity and deploying terminal user interfaces along with advanced Level 3 networking implementations such as BGP.\n\nFinally, a demonstration is to be made on an open source hardware showcasing full spread of Golang utilization.",
+            "imgSrc": "/speaker-photos/2024/bruno-banelli.jpg"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Lada Kovjanić",
+            "speakerInfo": "Senior software engineer at mStart d.o.o.",
+            "name": "Programming == wilderness survival",
+            "info": "Programming and wilderness survival, sound like two completely different terms or maybe not? A travel story about 6 months journey to the Western Sahara passing more than 5000 km by foot, car and bus. Living in nature and visiting the Sahrawi tribe taught me many skills that are very useful in application development. In this presentation we will discover why is a software development a lot like survival in the wild.",
+            "imgSrc": "/speaker-photos/2024/lada-kovjanic.jpeg"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Emma Saroyan",
+            "speakerInfo": "WTM Ambassador",
+            "name": "AI ruined my code: My journey with ChatGPT",
+            "info": "What is Generative AI and why is it impacting the world in increasingly significant ways? Emma, the co-author of the book “Generative AI for Web Development: Building Web Applications Powered by OpenAI APIs and Next.js”, will share with you what she learned about GenAI by writing a book about it. In this talk, she will present an example with Next.js, and discuss best practices and actionable strategies to get around the limitations of ChatGPT.",
+            "imgSrc": "/speaker-photos/2024/emma-saroyan.jpg"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Seifeddin Mansri",
+            "speakerInfo": "Cloud CTO at SFEIR | GDE",
+            "name": "FinOps: A New Hope",
+            "info": "Migration to the cloud has changed the way infrastructure resources are consumed, forcing businesses to adopt a more flexible but sometimes uncertain consumption model.\n\nIn fact, the bill at the end of the month is never the same since you only pay for what you have consumed!\n\nDon't panic, this presentation is here to introduce you to FinOps practices which offer an effective solution for managing this new mode of consumption and optimizing value creation in a Google Cloud environment.",
+            "imgSrc": "/speaker-photos/2024/seifeddin-mansri.jpeg"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Đuro Fusić",
+            "speakerInfo": "Senior Frontend Developer at Syskit d.o.o.",
+            "name": "Improving your web applications by using Google Lighthouse",
+            "info": "Google Lighthouse is an open-source, automated tool for improving the performance, quality and correctness of your web applications. In the talk we'll go more into details and will see how you can implement Google Lighthouse in your development workflow.",
+            "imgSrc": "/speaker-photos/2024/duro-fusic.jpg"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Raouf Rahiche",
+            "speakerInfo": "GDE for Flutter/Dart",
+            "name": "A closer look at the blur effect in Flutter",
+            "info": "You're working on a Flutter app when you notice it's getting slow when you start blurring some widgets, but this doesn't happen to all other widgets. You start to wonder: When do these blurs actually slow things down? How do you replicate the nice blurs from Figma in your app? And what's really happening when you use blur that makes it so slow?\nJoin us as we dig deeper into how blur works, what types of blur Flutter offers, and how we can create our own.",
+            "imgSrc": "/speaker-photos/2024/raouf-rahiche.png"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Mangirdas Kazlauskas",
+            "speakerInfo": "Mobile Tech Lead at Billo",
+            "name": "Design Patterns toolbox: (not so) obvious patterns for app development",
+            "info": "Tired of the same old design patterns? This talk will introduce you to lesser-known but incredibly powerful techniques that can make your app development life easier. We'll explore multiple OOP design patterns, and show you how they can be used to create better, more flexible apps.",
+            "imgSrc": "/speaker-photos/2024/mangirdas-kazlauskas.jpg"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Josip Bartulović",
+            "speakerInfo": "Senior Software Engineer at SeekandHit",
+            "name": "Learn data engineering -- by \"stealing\" government data",
+            "info": "During this hands-on session listeners will get a feel of what a data engineers work looks like by building a complete data pipeline using government data.\n\nWe'll use the Croatian cadastre, an open dataset of land ownership to guide us through the four stages of the data lifecycle: ingestion, storage, processing and visualization.\n\nBy the end of the session, listeners will learn how to:\n1) Automate downloading the public dataset\n2) Store data into BigQuery\n3) Clean up and process large datasets in BigQuery\n4) Visualize the data in an interactive dashboard using Looker Studio.\n\nFinally, these four steps will be connected into a data pipeline orchestrated using Apache Airflow on Cloud Composer.",
+            "imgSrc": "/speaker-photos/2024/josip-bartulovic.jpg"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Jasper Duizendstra",
+            "speakerInfo": "Google Cloud Architect | Workspace GDE",
+            "name": "Building a DMS on top of Google Drive",
+            "info": "In this session, Jasper will showcase a real-world implementation of a Document Management System (DMS) built on top of Google Drive using Apps Script and custom Add-ons. The system allows document editors to manage and maintain content efficiently, while published documents are made accessible through a Google Chat bot for end users. This solution leverages Google Workspace’s native integration capabilities and APIs to automate document workflows, streamline collaboration, and ensure proper document lifecycle management. The result is a robust and scalable DMS that meets the needs of dynamic content environments.",
+            "imgSrc": "/speaker-photos/2024/jasper-duizendstra.jpeg"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Dominik Šimoník",
+            "speakerInfo": "Freelance Flutter Developer",
+            "name": "Unlocking Innovation with Firebase GenKit",
+            "info": "In this talk, we'll explore Firebase GenKit, focusing on how structured data generation can streamline app development and enhance user experiences. The session will feature interactive demos that highlight GenKit’s capabilities in generating structured data for different use cases, providing practical insights and tips for integrating GenKit into your app development workflow effectively.",
+            "imgSrc": "/speaker-photos/2024/dominik-simonik.jpg"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Abubakar Siddiq Ango",
+            "speakerInfo": "Developer Advocate at GitLab",
+            "name": "Hey AI, Did I hear Risks?",
+            "info": "AI is now everywhere, and every technology service provider is jumping on the bandwagon to sell AI features in one form or another. It goes beyond technology tools; AI is now integrated into many parts of society. All these bring risks like bias, privacy concerns, lack of transparency, unintended consequences, and AI-specific risks like Prompt subversion, Hallucinations, Model Backdoor, AI infrastructure, and Model weaponization. Ethical development and deployment of AI systems are crucial for building public trust and minimizing potential harm. In this talk, Abubakar will share how we can mitigate risks in AI by adopting secure AI best practices and how the Secure AI framework (SAIF) can help.",
+            "imgSrc": "/speaker-photos/2024/abubakar-siddiq-ango.jpg"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Anuradha Kumari",
+            "speakerInfo": "Senior frontend developer at VodafoneZiggo",
+            "name": "Unleashing the Power of Chrome devtools for Web Accessibility Testing",
+            "info": "When it comes to testing for accessibility of our web apps, most of us would have used Chrome Lighthouse to generate a report and use the results to improve the accessibility of our web apps. However, that is not the only way to test for accessibility, and those tests can only detect a subset of issues. Do you know, there are many other ways in which we can test for accessibility using those same dev tools? In this talk, we will delve beyond the conventional use of Chrome Lighthouse and uncover several alternative methods within the developer tools to test web accessibility. We will explore techniques such as inspecting the accessibility tree, gaining insights into ARIA attributes, emulating various vision disabilities, and more. So, join me in this session, where we will unlock the potential of dev tools to unveil a diverse range of accessibility issues. Let's all learn together and improve how we test for web accessibility, and make the web inclusive for all our users.",
+            "imgSrc": "/speaker-photos/2024/anuradha-kumari.jpeg"
+        }
+    ]
+}
