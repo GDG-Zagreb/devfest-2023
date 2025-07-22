@@ -2,7 +2,7 @@
 import ImageGallery from '@/components/image-gallery';
 import { Button } from '@/components/ui/button';
 import GDGZagrebLogo from '@/public/assets/GDG-Zagreb-logo@3x.png';
-import HeaderImageLarge from '@/public/assets/header-lg@2x.png';
+import HeaderImageLarge from '@/public/assets/header-lg@2x.jpg';
 import HeaderImageMedium from '@/public/assets/header-md@2x.png';
 import GDGKrapinaLogo from '@/public/gdg-krapina-logo.png';
 import GDGOsijekLogo from '@/public/gdg-osijek-logo.svg';
