@@ -11,7 +11,7 @@ const Speakers = () => {
             </h1>
             <h2 className='mt-3 mb-6 text-2xl font-bold'>
                 Want to know more about the agenda? Check &nbsp;
-                <Link href={'/agenda'}>
+                <Link href={'/archive/2024/agenda'}>
                     <span className='underline'>here</span>
                 </Link>
             </h2>

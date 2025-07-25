@@ -1,4 +1,4 @@
-'use client';
+
 import ImageGallery from '@/components/image-gallery';
 import { Button } from '@/components/ui/button';
 import GDGZagrebLogo from '@/public/assets/GDG-Zagreb-logo@3x.png';
@@ -51,7 +51,7 @@ const MainPage = () => {
                             {/* CTA Buttons */}
                             <div className='flex flex-col items-center gap-6'>
                                 <Link
-                                    href='https://www.entrio.hr/event/devfest-2024-18712'
+                                    href='https://www.entrio.hr/event/devfest-2025-21473'
                                     target='_blank'
                                     className='w-full max-w-md'
                                 >

@@ -11,8 +11,28 @@ const Archive = () => {
                         <div className='bg-devfest-light dark:bg-devfest-dark max-h-[300px]'></div>
                         <h2 className='text-center w-full lg:text-4xl font-bold drop-shadow-2xl shadow-black/50 mb-10'>
                             Archive
-                        </h2>
+                        </h2>  
                         <div className='flex flex-col gap-6'>
+                            <div className='flex items-center justify-between p-4 bg-white dark:bg-gray-800 shadow-lg rounded-lg w-full max-w-md gap-4'>
+                                <div className='text-lg font-bold text-gray-900 dark:text-white'>
+                                    DevFest 2024
+                                </div>
+                                <div className='w-px bg-gray-300 dark:bg-gray-600 h-full'></div>
+                                <div className='flex gap-4'>
+                                    <Link href='archive/2024/agenda/'>
+                                        <div className='text-blue-500 hover:underline'>
+                                            Agenda
+                                        </div>
+                                    </Link>
+                                    <Link href='archive/2024/speakers/'>
+                                        <div className='text-blue-500 hover:underline'>
+                                            Speakers
+                                        </div>
+                                    </Link>
+                                </div>
+                            </div>
+                       
+                       
                             <div className='flex items-center justify-between p-4 bg-white dark:bg-gray-800 shadow-lg rounded-lg w-full max-w-md gap-4'>
                                 <div className='text-lg font-bold text-gray-900 dark:text-white'>
                                     DevFest 2023
@@ -31,7 +51,7 @@ const Archive = () => {
                                     </Link>
                                 </div>
                             </div>
-                        </div>
+                      </div>
                     </div>
                 </div>
             </div>

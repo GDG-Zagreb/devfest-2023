@@ -14,7 +14,7 @@ export default function Agenda() {
             </h1>
             <h2 className='mt-3 mb-6 text-2xl font-bold'>
                 Want to know more about talks and speakers? Check &nbsp;
-                <Link href={'/speakers'}>
+                <Link href={'/archive/2024/speakers'}>
                     <span className='underline'>here</span>
                 </Link>
             </h2>
