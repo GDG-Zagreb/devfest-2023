@@ -50,7 +50,7 @@ export function SiteHeader() {
                         </Button>
                         {/* </Link> */}
                         <Link
-                            href='https://www.entrio.hr/event/devfest-2024-18712'
+                            href='https://www.entrio.hr/event/devfest-2025-21473'
                             target='_blank'
                             rel='noopener noreferrer'
                         >
