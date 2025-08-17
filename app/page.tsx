@@ -7,10 +7,7 @@ import HeaderImageLarge from '@/public/assets/header-lg@2x.jpg';
 import HeaderImageMedium from '@/public/assets/header-md@2x.png';
 import SponzorskiPaketi from '@/public/assets/sponzorski-paketi.png';
 import GDGKrapinaLogo from '@/public/gdg-krapina-logo.png';
-import GDGOsijekLogo from '@/public/gdg-osijek-logo.svg';
-import SciplyLogo from '@/public/sponsors/SciPly_logo.png';
-import WTMLogo from '@/public/wtm-logo.png';
-import { Calendar, Clock, Coffee, PartyPopper, Table2, Ticket, User2, Users, X } from 'lucide-react';
+import { Calendar, Clock, Coffee, PartyPopper, Table2, Ticket, User2, Users, X, Lightbulb } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
@@ -156,7 +153,7 @@ const MainPage = () => {
                                             <div className='flex items-center justify-center gap-3'>
                                                 <PartyPopper className='w-6 h-6 text-pink-600' />
                                                 <span className='text-lg font-semibold text-gray-800 dark:text-gray-200'>
-                                                    Medium to huge after-party
+                                                    Medium to semi-huge after-party
                                                 </span>
                                             </div>
                                         </div>
@@ -169,9 +166,10 @@ const MainPage = () => {
                                         <div className='text-center space-y-6'>
                                             <div className='flex items-center justify-center gap-3 mb-4'>
                                                 <div className='p-3 bg-yellow-100 dark:bg-yellow-800/50 rounded-full shadow-lg'>
-                                                    <svg className='w-8 h-8 text-yellow-600 dark:text-yellow-400' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                                                    {/* <svg className='w-8 h-8 text-yellow-600 dark:text-yellow-400' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
                                                         <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M13 10V3L4 14h7v7l9-11h-7z' />
-                                                    </svg>
+                                                    </svg> */}
+                                                    <Lightbulb className='w-8 h-8' />
                                                 </div>
                                                 <h2 className='text-2xl md:text-3xl font-bold text-gray-800 dark:text-gray-200'>
                                                     Pitch Your Project!
@@ -237,7 +235,7 @@ const MainPage = () => {
                                                         </div>
                                                         <div className='text-left'>
                                                             <h4 className='font-semibold text-gray-800 dark:text-gray-200 mb-2'>
-                                                                Get feedback, inspire others, find collaborators
+                                                                Get feedback, inspire others, find collaborators, get users
                                                             </h4>
                                                             <p className='text-sm text-gray-600 dark:text-gray-400'>
                                                                 Receive valuable feedback, inspire the community, and potentially find collaborators or investors for your project!
@@ -471,45 +469,13 @@ const MainPage = () => {
                             ></Image>
                         </Link>
                         <Link
-                            href={
-                                'https://developers.google.com/womentechmakers'
-                            }
-                            target='_blank'
-                        >
-                            <Image
-                                src={WTMLogo}
-                                alt='WTM'
-                                height={35}
-                            ></Image>
-                        </Link>
-                        <Link
-                            href={'https://www.sciply.com/'}
-                            target='_blank'
-                        >
-                            <Image
-                                src={SciplyLogo}
-                                alt='Sciply'
-                                height={40}
-                            ></Image>
-                        </Link>
-                        <Link
-                            href='https://gdg.community.dev/gdg-osijek/'
-                            target='_blank'
-                        >
-                            <Image
-                                src={GDGOsijekLogo}
-                                alt='GDG Osijek'
-                                height={35}
-                            ></Image>
-                        </Link>
-                        <Link
                             href='https://gdg.community.dev/gdg-krapina/'
                             target='_blank'
                         >
                             <Image
                                 src={GDGKrapinaLogo}
                                 alt='GDG Krapina'
-                                height={100}
+                                height={120}
                             ></Image>
                         </Link>
                     </div>
