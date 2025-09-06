@@ -1,6 +1,7 @@
 'use client';
 
 import ImageGallery from '@/components/image-gallery';
+import FeaturedSpeakers from '@/components/featured-speakers';
 import { Button } from '@/components/ui/button';
 import GDGZagrebLogo from '@/public/assets/GDG-Zagreb-logo@3x.png';
 import HeaderImageLarge from '@/public/assets/header-lg@2x.jpg';
@@ -280,6 +281,8 @@ const MainPage = () => {
                             </div>
                         </div>
                     </div>
+                    <FeaturedSpeakers />
+                    
                     <div className='flex flex-col gap-y-6 my-32 items-center'>
                         <ImageGallery />
                     </div>

@@ -2,132 +2,77 @@
     "talks": [
         {
             "time": "09:00",
-            "speakerName": "",
             "name": "Registration and networking",
             "id": 1
         },
         {
             "time": "10:00",
-            "type": "Talk",
-            "speakerName": "Dean Djermanović",
-            "speakerInfo": "Android Tech Lead at Endava",
-            "name": "Exploring Kotlin Symbol Processing",
-            "info": "In this session we’ll dive into the world of Kotlin Symbol Processing (KSP). This session aims to provide an introduction to KSP and its benefits compared to the Kotlin Annotation Processing Tool (KAPT).\n\nThe practical portion of this talk will guide you through the process of creating annotation definitions and implementing a symbol processor. We will demonstrate the usage of KSP API and KotlinPoet for generating Kotlin files, providing you with a hands-on experience of working with KSP. Furthermore, we will demonstrate how to use KSP in multiplatform projects.\n\nBy the end of this talk, you will walk away with a solid understanding of Kotlin Symbol Processing, and practical knowledge on how to leverage KSP in your development workflow.",
-            "imgSrc": "/speaker-photos/2024/dean-djermanovic.jpg",
+            "speakerRef": "Dean Djermanović",
             "id": 2
         },
         {
             "time": "10:30",
-            "type": "Talk",
-            "speakerName": "Bruno Banelli",
-            "speakerInfo": "C-level at Sartura/Turofield/Novarq",
-            "name": "Golang - from Google's experiment to polyvalent enterprise programming platform",
-            "info": "This talk will aggregate rapid advancement of Golang in a little bit more than 10 years, highlighting not only unquestionable technical prowess but also many other governing aspects that made Golang first class citizen among high level programming languages.\n\nHaving hands on demonstration, the idea is to show all the possibilities that Golang offers not only within the originally intended scope of work where Golang naturally excels, such as web services and similar applications, but covering full spread of various system applications, ranging from fully fledged one-binary root file system (initramfs) containing a busybox-like set of tools, following utilization of Golang as a plane for deploying system level application atop of the Linux kernel, all the way to shell and scripting environment with advanced features designed for usability, safety and productivity and deploying terminal user interfaces along with advanced Level 3 networking implementations such as BGP.\n\nFinally, a demonstration is to be made on an open source hardware showcasing full spread of Golang utilization.",
-            "imgSrc": "/speaker-photos/2024/bruno-banelli.jpg",
+            "speakerRef": "Bruno Banelli",
             "id": 3
         },
         {
             "time": "11:00",
-            "speakerName": "",
             "name": "Short break",
             "id": 4
         },
         {
             "time": "11:15",
-            "type": "Talk",
-            "speakerName": "Ian Rumac",
-            "speakerInfo": "Software developer & architect",
-            "name": "Back to the future with WebAssembly",
-            "info": "WebAssembly has been The Future of Programming™️ for quite some time now, but now that it's finally looking usable - is it worth the hype? Should I even care? Will it take my job?\nIf you want to know the answer to these questions (yes, yes and maybe), join me for a deep dive into the world of WebAssembly and let's learn how to use this technology of the future, today.",
-            "imgSrc": "/speaker-photos/Ian.png",
+            "speakerRef": "Ian Rumac",
             "id": 5
         },
         {
             "time": "11:45",
-            "type": "Talk",
-            "speakerName": "Berislav Grgičak",
-            "speakerInfo": "WordPress contributor",
-            "name": "Let's build a LAMP stack in the browser and run WordPress without a server",
-            "info": "Learn what it takes to build a LAMP stack alternative in JavaScript using modern features like WebAssembly. We will explore how WordPress Playground runs WordPress in a browser and Node.js without a server even while offline.",
-            "imgSrc": "/speaker-photos/2024/berislav-grgicak.png",
+            "speakerRef": "Berislav Grgičak",
             "id": 6
         },
         {
             "time": "12:15",
-            "speakerName": "",
             "name": "Short break",
             "id": 7
         },
         {
             "time": "12:30",
-            "type": "Talk",
-            "speakerName": "Josip Krnjić",
-            "speakerInfo": "Flutter Freelance/Consultant",
-            "name": "Become a Full Full-stack Developer",
-            "info": "It's not a typo. You heard about Full-Stack developers, but what about Full \"Full-Stack developers\" using power of Flutter and Dart. I'll cover how can Flutter and Dart work on many different platforms. So you can be like a one-man army, building apps for iOS, Android, Web, desktops, embedded and server.",
-            "imgSrc": "/speaker-photos/2024/josip-krnjic.png",
+            "speakerRef": "Josip Krnjić",
             "id": 8
         },
         {
             "time": "13:00",
-            "type": "Talk",
-            "speakerName": "Dinko Marinac",
-            "speakerInfo": "Self-employed at MOBILAPP Solutions d.o.o.",
-            "name": "Going Serverless with Dart",
-            "info": "You will learn how to write and deploy Dart logic in a serverless fashion using AWS and GCP.",
-            "imgSrc": "/speaker-photos/2024/dinko-marinac.jpg",
+            "speakerRef": "Dinko Marinac",
             "id": 9
         },
         {
             "time": "13:30",
-            "speakerName": "",
             "name": "Lunch and networking break 🍴 🛜",
             "id": 10
         },
         {
             "time": "14:30",
-            "type": "Talk",
-            "speakerName": "Raouf Rahiche",
-            "speakerInfo": "GDE for Flutter/Dart",
-            "name": "A closer look at the blur effect in Flutter",
-            "info": "You're working on a Flutter app when you notice it's getting slow when you start blurring some widgets, but this doesn't happen to all other widgets. You start to wonder: When do these blurs actually slow things down? How do you replicate the nice blurs from Figma in your app? And what's really happening when you use blur that makes it so slow?\nJoin us as we dig deeper into how blur works, what types of blur Flutter offers, and how we can create our own.",
-            "imgSrc": "/speaker-photos/2024/raouf-rahiche.png",
+            "speakerRef": "Raouf Rahiche",
             "id": 11
         },
         {
             "time": "15:00",
-            "type": "Talk",
-            "speakerName": "Jasper Duizendstra",
-            "speakerInfo": "Google Cloud Architect | Workspace GDE",
-            "name": "Building a DMS on top of Google Drive",
-            "info": "In this session, Jasper will showcase a real-world implementation of a Document Management System (DMS) built on top of Google Drive using Apps Script and custom Add-ons. The system allows document editors to manage and maintain content efficiently, while published documents are made accessible through a Google Chat bot for end users. This solution leverages Google Workspace’s native integration capabilities and APIs to automate document workflows, streamline collaboration, and ensure proper document lifecycle management. The result is a robust and scalable DMS that meets the needs of dynamic content environments.",
-            "imgSrc": "/speaker-photos/2024/jasper-duizendstra.jpeg",
+            "speakerRef": "Jasper Duizendstra",
             "id": 12
         },
         {
             "time": "15:30",
-            "speakerName": "",
             "name": "Coffee break ☕",
             "id": 13
         },
         {
             "time": "16:00",
-            "type": "Talk",
-            "speakerName": "Anuradha Kumari",
-            "speakerInfo": "Senior frontend developer at VodafoneZiggo",
-            "name": "Unleashing the Power of Chrome devtools for Web Accessibility Testing",
-            "info": "When it comes to testing for accessibility of our web apps, most of us would have used Chrome Lighthouse to generate a report and use the results to improve the accessibility of our web apps. However, that is not the only way to test for accessibility, and those tests can only detect a subset of issues. Do you know, there are many other ways in which we can test for accessibility using those same dev tools? In this talk, we will delve beyond the conventional use of Chrome Lighthouse and uncover several alternative methods within the developer tools to test web accessibility. We will explore techniques such as inspecting the accessibility tree, gaining insights into ARIA attributes, emulating various vision disabilities, and more. So, join me in this session, where we will unlock the potential of dev tools to unveil a diverse range of accessibility issues. Let's all learn together and improve how we test for web accessibility, and make the web inclusive for all our users.",
-            "imgSrc": "/speaker-photos/2024/anuradha-kumari.jpeg",
+            "speakerRef": "Anuradha Kumari",
             "id": 14
         },
         {
             "time": "16:30",
-            "type": "Talk",
-            "speakerName": "Đuro Fusić",
-            "speakerInfo": "Senior Frontend Developer at Syskit d.o.o.",
-            "name": "Improving your web applications by using Google Lighthouse",
-            "info": "Google Lighthouse is an open-source, automated tool for improving the performance, quality and correctness of your web applications. In the talk we'll go more into details and will see how you can implement Google Lighthouse in your development workflow.",
-            "imgSrc": "/speaker-photos/2024/duro-fusic.jpg",
+            "speakerRef": "Đuro Fusić",
             "id": 15
         }
     ]

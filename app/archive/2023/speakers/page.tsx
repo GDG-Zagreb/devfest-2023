@@ -19,7 +19,7 @@ export default async function Speakers() {
                     a.name.split(' ')[1].localeCompare(b.name.split(' ')[1])
                 )
                 .map((session) => {
-                    return <SpeakerCard session={session} />;
+                    return <SpeakerCard key={session.speakerName} session={session} />;
                 })}
         </div>
     );

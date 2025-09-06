@@ -1,7 +1,7 @@
 'use client';
 
 import SpeakerCard from '@/components/speaker-card';
-import speakers from '@/json/speakers.json';
+import speakers from '@/json/archive/2024/speakers.json';
 import Link from 'next/link';
 const Speakers = () => {
     return (

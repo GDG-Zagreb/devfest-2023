@@ -3,14 +3,19 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import enter from '@/json/enter.json';
 import shift from '@/json/shift.json';
+import { enhanceScheduleWithSpeakers } from '@/lib/speaker-utils';
 import Link from 'next/link';
 import AgendaItem from '@/components/AgendaItem';
 
 export default function Agenda() {
+    // Enhance schedules with speaker data from current year (2025)
+    const enhancedEnterTalks = enhanceScheduleWithSpeakers(enter.talks);
+    const enhancedShiftTalks = enhanceScheduleWithSpeakers(shift.talks);
+
     return (
         <div className='container flex flex-col items-center px-4 p-10'>
             <h1 className='mt-3 mb-6 text-4xl font-bold'>
-                DevFest Zagreb 2024 Agenda
+                DevFest Zagreb 2025 Agenda
             </h1>
             <h2 className='mt-3 mb-6 text-2xl font-bold'>
                 Want to know more about talks and speakers? Check &nbsp;
@@ -25,14 +30,14 @@ export default function Agenda() {
                 </TabsList>
                 <TabsContent value='enter'>
                     <div className='flex flex-col gap-3'>
-                        {enter.talks.map((talk) => {
+                        {enhancedEnterTalks.map((talk) => {
                             return <AgendaItem talk={talk} key={talk.id} />;
                         })}
                     </div>
                 </TabsContent>
                 <TabsContent value='shift'>
                     <div className='flex flex-col gap-3'>
-                        {shift.talks.map((talk) => {
+                        {enhancedShiftTalks.map((talk) => {
                             return <AgendaItem talk={talk} key={talk.id} />;
                         })}
                     </div>
