@@ -7,7 +7,7 @@
             "name": "Function Calling with the Vertex AI Gemini API",
             "info": "We will explore Google Cloud Platform - Vertex AI powered experiences, we are going to learn more about the integration of these generative AI APIs by developers to build and deploy AI-driven applications. Gemini is a family of generative AI models developed by Google DeepMind that is designed for multimodal use cases available for companies via Vertex AI.\n\nFunction calling lets developers create a description of a function in their code, then pass that description to a language model in a request. The response from the model includes the name of a function that matches the description and the arguments to call it with. In this session, you will learn how to use the Vertex AI Gemini API with the Vertex AI SDK for Python to make function calls via the Gemini Pro (gemini-pro) model.\n\nWe are going to cover the following interaction with the Gemini Pro model:\n\n- Generate function calls from a text prompt to get the weather for a given location\n- Generate function calls from a text prompt and call an external API to geocode addresses\n- Generate function calls from a chat prompt to help retail users\n\nAt the end of the session, developers will understand how to innovate with generative AI and develop apps using the generative ai industry trends.",
             "imgSrc": "/speaker-photos/2024/marton-kodok.jpg",
-            "isFeatured": true
+            "isFeatured": false
         },
         {
             "type": "Talk",
