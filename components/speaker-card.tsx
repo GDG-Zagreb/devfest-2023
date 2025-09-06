@@ -57,7 +57,7 @@ export default function SpeakerCard({ session }: SpeakerCardProps) {
                                 <h3 className='text-lg sm:text-xl font-bold text-gray-900 dark:text-gray-100 truncate'>
                                     {session.speakerName}
                                 </h3>
-                                <p className='text-sm text-muted-foreground line-clamp-1'>
+                                <p className='text-sm text-muted-foreground'>
                                     {session.speakerInfo}
                                 </p>
                                 {session.time && (
@@ -71,7 +71,7 @@ export default function SpeakerCard({ session }: SpeakerCardProps) {
                         
                         {/* Talk Title Section */}
                         <div className='flex-1 min-w-0 sm:max-w-md flex items-center'>
-                            <h4 className='text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200 line-clamp-2 leading-tight'>
+                            <h4 className='text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200 leading-tight'>
                                 {session.name}
                             </h4>
                         </div>
