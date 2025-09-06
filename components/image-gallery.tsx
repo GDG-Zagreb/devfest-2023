@@ -25,13 +25,12 @@ const ImageGallery = () => {
             </h1>
             <div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3'>
                 {images.map((src, index) => (
-                    <div key={index} className='overflow-hidden rounded-lg w-full h-[300px]'>
+                    <div key={index} className='overflow-hidden rounded-lg w-full h-[300px] relative'>
                         <Image
                             src={src}
                             alt={`Gallery image ${index + 1}`}
-                            width={500}
-                            height={300}
-                            className='w-full h-full object-cover'
+                            fill
+                            className='object-cover'
                             sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                         />
                     </div>

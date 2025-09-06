@@ -42,7 +42,7 @@ export default function FeaturedSpeakers() {
                                     alt={speaker.speakerName}
                                     width={150}
                                     height={150}
-                                    className='rounded-full object-cover border-6 border-white dark:border-gray-600 shadow-2xl'
+                                    className='w-[150px] h-[150px] rounded-full object-cover border-6 border-white dark:border-gray-600 shadow-2xl'
                                 />
                                 <div className='absolute -bottom-2 -right-2 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full p-2 shadow-lg'>
                                     <Users className='w-5 h-5 text-white' />
@@ -87,7 +87,7 @@ export default function FeaturedSpeakers() {
                                 alt={speaker.speakerName}
                                 width={120}
                                 height={120}
-                                className='rounded-full object-cover border-4 border-white dark:border-gray-600 shadow-lg'
+                                className='w-[120px] h-[120px] rounded-full object-cover border-4 border-white dark:border-gray-600 shadow-lg'
                             />
                         </div>
                         <div>
@@ -123,7 +123,7 @@ export default function FeaturedSpeakers() {
                                 alt={featuredSpeakers[0].speakerName}
                                 width={120}
                                 height={120}
-                                className='rounded-full object-cover border-4 border-white dark:border-gray-600 shadow-lg'
+                                className='w-[120px] h-[120px] rounded-full object-cover border-4 border-white dark:border-gray-600 shadow-lg'
                             />
                         </div>
                         <div className='flex-1 text-center md:text-left'>
@@ -154,7 +154,7 @@ export default function FeaturedSpeakers() {
                                 alt={speaker.speakerName}
                                 width={100}
                                 height={100}
-                                className='rounded-full object-cover border-4 border-white dark:border-gray-600 shadow-lg mb-4'
+                                className='w-[100px] h-[100px] rounded-full object-cover border-4 border-white dark:border-gray-600 shadow-lg mb-4'
                             />
                             <h3 className='text-lg font-bold text-gray-800 dark:text-gray-200 mb-1'>
                                 {speaker.speakerName}
@@ -188,7 +188,7 @@ export default function FeaturedSpeakers() {
                                 alt={speaker.speakerName}
                                 width={80}
                                 height={80}
-                                className='rounded-full object-cover border-4 border-white dark:border-gray-600 shadow-lg'
+                                className='w-[80px] h-[80px] rounded-full object-cover border-4 border-white dark:border-gray-600 shadow-lg'
                             />
                         </div>
                         <h3 className='text-lg font-bold text-gray-800 dark:text-gray-200 mb-1'>

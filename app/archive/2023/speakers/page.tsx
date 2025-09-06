@@ -14,13 +14,15 @@ export default async function Speakers() {
                     <span className='underline'>here</span>
                 </Link>
             </h2>
-            {speakers.speakers
-                .sort((a, b) =>
-                    a.name.split(' ')[1].localeCompare(b.name.split(' ')[1])
-                )
-                .map((session) => {
-                    return <SpeakerCard key={session.speakerName} session={session} />;
-                })}
+            <div className='flex flex-col gap-3 w-full max-w-4xl'>
+                {speakers.speakers
+                    .sort((a, b) =>
+                        a.name.split(' ')[1].localeCompare(b.name.split(' ')[1])
+                    )
+                    .map((session) => {
+                        return <SpeakerCard key={session.speakerName} session={session} />;
+                    })}
+            </div>
         </div>
     );
 }

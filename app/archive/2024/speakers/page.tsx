@@ -15,23 +15,23 @@ const Speakers = () => {
                     <span className='underline'>here</span>
                 </Link>
             </h2>
-            <div className='mt-3 mb-6'></div>
-
-            {speakers.speakers
-                .sort((a, b) =>
-                    a.name.split(' ')[1].localeCompare(b.name.split(' ')[1])
-                )
-                .map((session) => {
-                    return (
-                        <SpeakerCard
-                            session={session}
-                            key={
-                                session.name.split(' ')[1] +
-                                session.name.split(' ')[0]
-                            }
-                        />
-                    );
-                })}
+            <div className='flex flex-col gap-3 w-full max-w-4xl'>
+                {speakers.speakers
+                    .sort((a, b) =>
+                        a.name.split(' ')[1].localeCompare(b.name.split(' ')[1])
+                    )
+                    .map((session) => {
+                        return (
+                            <SpeakerCard
+                                session={session}
+                                key={
+                                    session.name.split(' ')[1] +
+                                    session.name.split(' ')[0]
+                                }
+                            />
+                        );
+                    })}
+            </div>
         </div>
     );
 };
