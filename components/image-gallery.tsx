@@ -19,19 +19,36 @@ const ImageGallery = () => {
     ];
 
     return (
-        <div>
-            <h1 className='text-center text-2xl font-bold mb-4'>
+        <div className='w-full max-w-4xl mx-auto'>
+            <h1 className='text-center text-2xl font-bold mb-6'>
                 Snaps from DevFest 2024
             </h1>
-            <div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3'>
+            
+            {/* Mobile: 1 column */}
+            <div className='grid grid-cols-1 gap-4 sm:hidden'>
                 {images.map((src, index) => (
-                    <div key={index} className='overflow-hidden rounded-lg w-full h-[300px] relative'>
+                    <div key={index} className='w-full h-[300px] relative overflow-hidden rounded-lg shadow-md'>
                         <Image
                             src={src}
                             alt={`Gallery image ${index + 1}`}
                             fill
-                            className='object-cover'
-                            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                            className='object-cover hover:scale-105 transition-transform duration-300'
+                            sizes="100vw"
+                        />
+                    </div>
+                ))}
+            </div>
+
+            {/* Desktop: 3 columns */}
+            <div className='hidden sm:grid sm:grid-cols-3 gap-4'>
+                {images.map((src, index) => (
+                    <div key={index} className='w-full h-[250px] relative overflow-hidden rounded-lg shadow-md'>
+                        <Image
+                            src={src}
+                            alt={`Gallery image ${index + 1}`}
+                            fill
+                            className='object-cover hover:scale-105 transition-transform duration-300'
+                            sizes="33vw"
                         />
                     </div>
                 ))}
