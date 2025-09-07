@@ -6,7 +6,7 @@ interface AgendaItemProps {
         type?: string;
         speakerName?: string;
         speakerInfo?: string;
-        name: string;
+        name?: string;
         info?: string;
         imgSrc?: string;
     };
@@ -18,7 +18,7 @@ const AgendaItem = ({ talk }: AgendaItemProps) => {
             <div className='flex flex-row gap-4 items-center sm:w-full md:w-5/6 lg:w-2/3 '>
                 <div className='text-font-semibold'>{talk.time}</div>
                 <div className='text-bold text-xl md:text-2xl md:w-4/5 lg:w-full'>
-                    {talk.name}
+                    {talk.name || 'Event'}
                 </div>
             </div>
 
