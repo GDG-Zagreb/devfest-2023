@@ -9,17 +9,18 @@ const Speakers = () => {
             <h1 className='mt-3 mb-6 text-4xl font-bold'>
                 Meet the speakers and find out more about their talks
             </h1>
-            <h2 className='mt-3 mb-6 text-2xl font-bold'>
+            {/* <h2 className='mt-3 mb-6 text-2xl font-bold'>
                 Want to know more about the agenda? Check &nbsp;
                 <Link href={'/agenda'}>
                     <span className='underline'>here</span>
                 </Link>
-            </h2>
+            </h2> */}
             <div className='flex flex-col gap-3 w-full max-w-4xl'>
                 {speakers.speakers
                     .sort((a, b) =>
                         a.name.split(' ')[1].localeCompare(b.name.split(' ')[1])
                     )
+                    .filter((session) => session.isPublishable === true)
                     .map((session) => {
                         return (
                             <SpeakerCard

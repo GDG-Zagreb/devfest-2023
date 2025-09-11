@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Users } from 'lucide-react';
+import { useState } from 'react';
 import speakers from '@/json/speakers.json';
 
 type Speaker = {
@@ -15,6 +16,28 @@ type Speaker = {
     imgSrc: string;
     isFeatured: boolean;
 };
+
+// Helper component for expandable text
+function ExpandableText({ text, className, maxLines = 3 }: { text: string; className?: string; maxLines?: number }) {
+    const [isExpanded, setIsExpanded] = useState(false);
+    const shouldTruncate = text.length > 150; // Rough character estimate for truncation
+
+    return (
+        <div>
+            <p className={`${className} ${!isExpanded && shouldTruncate ? `line-clamp-${maxLines}` : ''} leading-relaxed`}>
+                {text}
+            </p>
+            {shouldTruncate && (
+                <button
+                    onClick={() => setIsExpanded(!isExpanded)}
+                    className='text-purple-600 dark:text-purple-400 text-sm font-medium hover:text-purple-700 dark:hover:text-purple-300 mt-2 transition-colors'
+                >
+                    {isExpanded ? 'Show less' : 'Show more'}
+                </button>
+            )}
+        </div>
+    );
+}
 
 export default function FeaturedSpeakers() {
     const featuredSpeakers = speakers.speakers.filter((speaker: Speaker) => speaker.isFeatured);
@@ -29,17 +52,17 @@ export default function FeaturedSpeakers() {
     
     const renderSingleSpeakerLayout = () => (
         <div className='mb-8'>
-            {featuredSpeakers.map((speaker: Speaker) => (
+            {featuredSpeakers.map((featuredSpeaker: Speaker) => (
                 <div
-                    key={speaker.speakerName}
+                    key={featuredSpeaker.speakerName}
                     className='bg-gradient-to-r from-white via-gray-50 to-white dark:from-gray-700 dark:via-gray-800 dark:to-gray-700 rounded-3xl p-8 shadow-xl border border-gray-200 dark:border-gray-600 hover:shadow-2xl transition-all duration-300'
                 >
                     <div className='flex flex-col lg:flex-row items-center lg:items-start gap-8'>
                         <div className='flex-shrink-0'>
                             <div className='relative'>
                                 <Image
-                                    src={speaker.imgSrc}
-                                    alt={speaker.speakerName}
+                                    src={featuredSpeaker.imgSrc}
+                                    alt={featuredSpeaker.speakerName}
                                     width={150}
                                     height={150}
                                     className='w-[150px] h-[150px] rounded-full object-cover border-6 border-white dark:border-gray-600 shadow-2xl'
@@ -52,19 +75,21 @@ export default function FeaturedSpeakers() {
                         <div className='flex-1 text-center lg:text-left space-y-4'>
                             <div>
                                 <h3 className='text-2xl md:text-3xl font-bold text-gray-800 dark:text-gray-200 mb-2'>
-                                    {speaker.speakerName}
+                                    {featuredSpeaker.speakerName}
                                 </h3>
                                 <p className='text-lg text-gray-600 dark:text-gray-400 font-medium'>
-                                    {speaker.speakerInfo}
+                                    {featuredSpeaker.speakerInfo}
                                 </p>
                             </div>
                             <div className='bg-gradient-to-r from-purple-50 to-blue-50 dark:from-purple-900/20 dark:to-blue-900/20 rounded-xl p-4 border border-purple-200 dark:border-purple-700'>
                                 <h4 className='text-xl font-bold text-gray-800 dark:text-gray-200 mb-2'>
-                                    {speaker.name}
+                                    {featuredSpeaker.name}
                                 </h4>
-                                <p className='text-gray-700 dark:text-gray-300 line-clamp-3 leading-relaxed'>
-                                    {speaker.info}
-                                </p>
+                                <ExpandableText 
+                                    text={featuredSpeaker.info}
+                                    className='text-gray-700 dark:text-gray-300'
+                                    maxLines={3}
+                                />
                             </div>
                         </div>
                     </div>
@@ -102,9 +127,11 @@ export default function FeaturedSpeakers() {
                             <h4 className='text-lg font-bold text-gray-800 dark:text-gray-200 mb-2'>
                                 {speaker.name}
                             </h4>
-                            <p className='text-sm text-gray-700 dark:text-gray-300 line-clamp-3'>
-                                {speaker.info}
-                            </p>
+                            <ExpandableText 
+                                text={speaker.info}
+                                className='text-sm text-gray-700 dark:text-gray-300'
+                                maxLines={3}
+                            />
                         </div>
                     </div>
                 </div>
@@ -134,9 +161,14 @@ export default function FeaturedSpeakers() {
                                 {featuredSpeakers[0].speakerInfo}
                             </p>
                             <div className='bg-gradient-to-r from-purple-100 to-blue-100 dark:from-purple-900/30 dark:to-blue-900/30 rounded-lg p-3'>
-                                <p className='font-semibold text-gray-800 dark:text-gray-200 text-sm'>
+                                <p className='font-semibold text-gray-800 dark:text-gray-200 text-sm mb-2'>
                                     {featuredSpeakers[0].name}
                                 </p>
+                                <ExpandableText 
+                                    text={featuredSpeakers[0].info}
+                                    className='text-xs text-gray-600 dark:text-gray-400'
+                                    maxLines={2}
+                                />
                             </div>
                         </div>
                     </div>
@@ -163,9 +195,14 @@ export default function FeaturedSpeakers() {
                                 {speaker.speakerInfo}
                             </p>
                             <div className='bg-gradient-to-r from-purple-100 to-blue-100 dark:from-purple-900/30 dark:to-blue-900/30 rounded-lg p-3 w-full'>
-                                <p className='text-sm font-semibold text-gray-800 dark:text-gray-200 line-clamp-2'>
+                                <p className='text-sm font-semibold text-gray-800 dark:text-gray-200 mb-2'>
                                     {speaker.name}
                                 </p>
+                                <ExpandableText 
+                                    text={speaker.info}
+                                    className='text-xs text-gray-600 dark:text-gray-400'
+                                    maxLines={2}
+                                />
                             </div>
                         </div>
                     </div>
@@ -198,9 +235,14 @@ export default function FeaturedSpeakers() {
                             {speaker.speakerInfo}
                         </p>
                         <div className='bg-gradient-to-r from-purple-100 to-blue-100 dark:from-purple-900/30 dark:to-blue-900/30 rounded-lg p-3 w-full'>
-                            <p className='text-sm font-semibold text-gray-800 dark:text-gray-200 line-clamp-2'>
+                            <p className='text-sm font-semibold text-gray-800 dark:text-gray-200 mb-2'>
                                 {speaker.name}
                             </p>
+                            <ExpandableText 
+                                text={speaker.info}
+                                className='text-xs text-gray-600 dark:text-gray-400'
+                                maxLines={2}
+                            />
                         </div>
                     </div>
                 </div>
