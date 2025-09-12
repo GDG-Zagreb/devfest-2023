@@ -49,6 +49,7 @@ export function getSpeakerByName(speakerName: string, year?: string): BaseSpeake
             );
             if (currentSpeaker) {
                 // Strip the isFeatured property to match BaseSpeaker type
+                // eslint-disable-next-line @typescript-eslint/no-unused-vars
                 const { isFeatured, ...baseSpeaker } = currentSpeaker;
                 return baseSpeaker;
             }
@@ -88,6 +89,7 @@ export function getAllSpeakers(year?: string): BaseSpeaker[] {
             return speakers2024.speakers as BaseSpeaker[];
         default:
             // For current year, strip isFeatured from all speakers
+            // eslint-disable-next-line @typescript-eslint/no-unused-vars
             return speakers.speakers.map(({ isFeatured, ...baseSpeaker }) => baseSpeaker);
     }
 }

@@ -1,13 +1,4 @@
-import React, { Suspense } from 'react';
-import { Separator } from './ui/separator';
-import Image from 'next/image';
-import { Skeleton } from './ui/skeleton';
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from '@/components/ui/accordion';
+import React from 'react';
 
 export default function AgendaCard(props: {
   talk: {

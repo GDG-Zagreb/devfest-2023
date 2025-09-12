@@ -2,7 +2,6 @@
 
 import SpeakerCard from '@/components/speaker-card';
 import speakers from '@/json/speakers.json';
-import Link from 'next/link';
 const Speakers = () => {
     return (
         <div className='container flex flex-col items-center px-4 p-10'>

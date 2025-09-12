@@ -194,7 +194,7 @@ const MainPage = () => {
                                                                 Have a cool side project, idea, or startup?
                                                             </h4>
                                                             <p className='text-sm text-gray-600 dark:text-gray-400'>
-                                                                Whether you're working on a side project, have an idea you haven't started yet, or are running a startup - we want to hear from you!
+                                                                Whether you&rsquo;re working on a side project, have an idea you haven&rsquo;t started yet, or are running a startup - we want to hear from you!
                                                             </p>
                                                         </div>
                                                     </div>

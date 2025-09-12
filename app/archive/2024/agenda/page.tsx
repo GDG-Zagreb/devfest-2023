@@ -25,8 +25,8 @@ export default function Agenda() {
             </h2>
             <Tabs defaultValue='enter' className='w-full lg:w-4/5'>
                 <TabsList className='grid w-full grid-cols-2'>
-                    <TabsTrigger value='enter'>Stage "Enter"</TabsTrigger>
-                    <TabsTrigger value='shift'>Stage "Shift"</TabsTrigger>
+                    <TabsTrigger value='enter'>Stage &ldquo;Enter&rdquo;</TabsTrigger>
+                    <TabsTrigger value='shift'>Stage &ldquo;Shift&rdquo;</TabsTrigger>
                 </TabsList>
                 <TabsContent value='enter'>
                     <div className='flex flex-col gap-3'>
