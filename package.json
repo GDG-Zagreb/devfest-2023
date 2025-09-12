@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
-    "type-check:watch": "tsc --noEmit --watch"
+    "type-check:watch": "tsc --noEmit --watch",
+    "check": "npm run lint && npm run type-check"
   },
   "dependencies": {
     "@img-comparison-slider/react": "^8.0.1",

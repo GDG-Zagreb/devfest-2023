@@ -15,6 +15,7 @@ type Speaker = {
     info: string;
     imgSrc: string;
     isFeatured: boolean;
+    isPublishable: boolean;
 };
 
 // Helper component for expandable text
