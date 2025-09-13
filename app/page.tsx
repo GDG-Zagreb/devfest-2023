@@ -94,16 +94,18 @@ const MainPage = () => {
                                                     </Button>
                                                 </Link>
                                             ) : (
-                                                <div className='relative'>
-                                                    <Button
-                                                        className='w-full max-w-md h-14 rounded-2xl text-lg font-semibold bg-gradient-to-r from-gray-400 to-gray-500 text-white shadow-xl cursor-not-allowed opacity-75'
-                                                        disabled
-                                                    >
-                                                        <Table2 className='mr-3 w-5 h-5' />
-                                                        View agenda
-                                                    </Button>
-                                                    <div className='absolute -top-2 -right-2 bg-gradient-to-r from-orange-500 to-red-500 text-white text-xs font-bold px-3 py-1 rounded-full animate-pulse shadow-lg'>
-                                                        Coming Soon
+                                                <div className='flex justify-center'>
+                                                    <div className='relative inline-block'>
+                                                        <Button
+                                                            className='h-14 px-8 rounded-2xl text-lg font-semibold bg-gradient-to-r from-gray-400 to-gray-500 text-white shadow-xl cursor-not-allowed opacity-75'
+                                                            disabled
+                                                        >
+                                                            <Table2 className='mr-3 w-5 h-5' />
+                                                            View agenda
+                                                        </Button>
+                                                        <div className='absolute -top-3 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-orange-500 to-red-500 text-white text-xs font-bold px-3 py-1 rounded-full animate-pulse shadow-lg'>
+                                                            Coming Soon
+                                                        </div>
                                                     </div>
                                                 </div>
                                             )}
