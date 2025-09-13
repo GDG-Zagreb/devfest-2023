@@ -23,9 +23,23 @@ function ExpandableText({ text, className, maxLines = 3 }: { text: string; class
     const [isExpanded, setIsExpanded] = useState(false);
     const shouldTruncate = text.length > 150; // Rough character estimate for truncation
 
+    // Get the appropriate line-clamp class
+    const getLineClampClass = () => {
+        if (isExpanded || !shouldTruncate) return '';
+        switch (maxLines) {
+            case 1: return 'line-clamp-1';
+            case 2: return 'line-clamp-2';
+            case 3: return 'line-clamp-3';
+            case 4: return 'line-clamp-4';
+            case 5: return 'line-clamp-5';
+            case 6: return 'line-clamp-6';
+            default: return 'line-clamp-3';
+        }
+    };
+
     return (
         <div>
-            <p className={`${className} ${!isExpanded && shouldTruncate ? `line-clamp-${maxLines}` : ''} leading-relaxed`}>
+            <p className={`${className} ${getLineClampClass()} leading-relaxed`}>
                 {text}
             </p>
             {shouldTruncate && (
