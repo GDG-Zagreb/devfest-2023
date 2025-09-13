@@ -8,14 +8,14 @@ import HeaderImageLarge from '@/public/assets/header-lg@2x.jpg';
 import HeaderImageMedium from '@/public/assets/header-md@2x.png';
 import SponzorskiPaketi from '@/public/assets/sponzorski-paketi.png';
 import GDGKrapinaLogo from '@/public/gdg-krapina-logo.png';
-import { Calendar, Clock, Coffee, PartyPopper, Table2, Ticket, User2, Users, X, Lightbulb } from 'lucide-react';
+import { Calendar, Clock, Coffee, PartyPopper, Table2, Ticket, Users, X, Lightbulb } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 
 const MainPage = () => {
     const isAgendaAvailable = false;
-    const isSpeakersAvailable = false;
+   
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     const openModal = () => setIsModalOpen(true);
@@ -94,18 +94,16 @@ const MainPage = () => {
                                                     </Button>
                                                 </Link>
                                             ) : (
-                                                <div className='flex justify-center'>
-                                                    <div className='relative'>
-                                                        <Button
-                                                            className='w-full max-w-md h-14 rounded-2xl text-lg font-semibold bg-gradient-to-r from-gray-400 to-gray-500 text-white shadow-xl cursor-not-allowed opacity-75'
-                                                            disabled
-                                                        >
-                                                            <Table2 className='mr-3 w-5 h-5' />
-                                                            View agenda
-                                                        </Button>
-                                                        <div className='absolute -top-2 -right-2 bg-gradient-to-r from-orange-500 to-red-500 text-white text-xs font-bold px-3 py-1 rounded-full animate-pulse shadow-lg'>
-                                                            Coming Soon
-                                                        </div>
+                                                <div className='relative'>
+                                                    <Button
+                                                        className='w-full max-w-md h-14 rounded-2xl text-lg font-semibold bg-gradient-to-r from-gray-400 to-gray-500 text-white shadow-xl cursor-not-allowed opacity-75'
+                                                        disabled
+                                                    >
+                                                        <Table2 className='mr-3 w-5 h-5' />
+                                                        View agenda
+                                                    </Button>
+                                                    <div className='absolute -top-2 -right-2 bg-gradient-to-r from-orange-500 to-red-500 text-white text-xs font-bold px-3 py-1 rounded-full animate-pulse shadow-lg'>
+                                                        Coming Soon
                                                     </div>
                                                 </div>
                                             )}
