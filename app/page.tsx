@@ -66,53 +66,26 @@ const MainPage = () => {
                                     </Button>
                                 </Link>
 
-                                {/* Speakers and Agenda Row */}
-                                <div className='w-full max-w-6xl grid grid-cols-1 lg:grid-cols-2 gap-6'>
-                                    {/* Speakers Section */}
+                                {/* Combined Speakers & Agenda Section */}
+                                <div className='w-full max-w-6xl'>
                                     <div className='bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-3xl p-8 shadow-xl border border-gray-200 dark:border-gray-700'>
-                                        <div className='text-center'>
-                                            <div className='flex items-center justify-center gap-3 mb-4'>
+                                        <div className='text-center space-y-6'>
+                                            {/* Combined Header */}
+                                            <div className='flex items-center justify-center gap-3 mb-6'>
                                                 <Users className='w-8 h-8 text-purple-600' />
                                                 <h2 className='text-2xl md:text-3xl font-bold text-gray-800 dark:text-gray-200'>
                                                     15 speakers & 11 pitchers over 2 stages
                                                 </h2>
                                             </div>
-                                            
-                                            {isSpeakersAvailable ? (
-                                                <Link href='/speakers' className='block'>
-                                                    <Button className='w-full max-w-md h-14 rounded-2xl text-lg font-semibold bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white shadow-xl transform transition-all duration-300 hover:scale-105'>
-                                                        <User2 className='mr-3 w-5 h-5' />
-                                                        Meet the speakers
-                                                    </Button>
-                                                </Link>
-                                            ) : (
-                                                <div className='relative'>
-                                                    <Button
-                                                        className='w-full max-w-md h-14 rounded-2xl text-lg font-semibold bg-gradient-to-r from-gray-400 to-gray-500 text-white shadow-xl cursor-not-allowed opacity-75'
-                                                        disabled
-                                                    >
-                                                        <User2 className='mr-3 w-5 h-5' />
-                                                        Meet the speakers
-                                                    </Button>
-                                                    <div className='absolute -top-2 -right-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white text-xs font-bold px-3 py-1 rounded-full animate-pulse shadow-lg'>
-                                                        Coming Soon
-                                                    </div>
-                                                </div>
-                                            )}
-                                        </div>
-                                    </div>
 
-                                    {/* Agenda Section with Topics */}
-                                    <div className='bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-3xl p-8 shadow-xl border border-gray-200 dark:border-gray-700'>
-                                        <div className='text-center space-y-6'>
                                             {/* Topics */}
                                             <div className='bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 rounded-2xl p-4 shadow-lg border border-blue-200 dark:border-blue-700'>
                                                 <h3 className='text-xl md:text-2xl font-bold text-gray-800 dark:text-gray-200'>
                                                     Mobile | Web | Cloud | AI
                                                 </h3>
                                             </div>
-                                            
-                                            {/* Agenda Button */}
+
+                                            {/* Single Agenda Button */}
                                             {isAgendaAvailable ? (
                                                 <Link href='/agenda' className='block'>
                                                     <Button className='w-full max-w-md h-14 rounded-2xl text-lg font-semibold bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white shadow-xl transform transition-all duration-300 hover:scale-105'>
@@ -121,16 +94,18 @@ const MainPage = () => {
                                                     </Button>
                                                 </Link>
                                             ) : (
-                                                <div className='relative'>
-                                                    <Button
-                                                        className='w-full max-w-md h-14 rounded-2xl text-lg font-semibold bg-gradient-to-r from-gray-400 to-gray-500 text-white shadow-xl cursor-not-allowed opacity-75'
-                                                        disabled
-                                                    >
-                                                        <Table2 className='mr-3 w-5 h-5' />
-                                                        View agenda
-                                                    </Button>
-                                                    <div className='absolute -top-2 -right-2 bg-gradient-to-r from-orange-500 to-red-500 text-white text-xs font-bold px-3 py-1 rounded-full animate-pulse shadow-lg'>
-                                                        Coming Soon
+                                                <div className='flex justify-center'>
+                                                    <div className='relative'>
+                                                        <Button
+                                                            className='w-full max-w-md h-14 rounded-2xl text-lg font-semibold bg-gradient-to-r from-gray-400 to-gray-500 text-white shadow-xl cursor-not-allowed opacity-75'
+                                                            disabled
+                                                        >
+                                                            <Table2 className='mr-3 w-5 h-5' />
+                                                            View agenda
+                                                        </Button>
+                                                        <div className='absolute -top-2 -right-2 bg-gradient-to-r from-orange-500 to-red-500 text-white text-xs font-bold px-3 py-1 rounded-full animate-pulse shadow-lg'>
+                                                            Coming Soon
+                                                        </div>
                                                     </div>
                                                 </div>
                                             )}
