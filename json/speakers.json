@@ -27,8 +27,8 @@
          "name": "Scraping 8 million daily prices for fun",
          "info": "Senko runs cijene.dev, a free API service that collects (crawls) daily prices from Croatian retail chains. Join him in exploring messy data, file formats in constant flux, overengineered code and a little bit of AI magic.",
          "imgSrc": "/speaker-photos/2025/rasic-senko.jpeg",
-         "isFeatured": false,
-         "isPublishable": false
+         "isFeatured": true,
+         "isPublishable": true
         }
     ]
 }
