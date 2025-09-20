@@ -17,8 +17,8 @@
          "name": "One Small Model for Chrome, One Giant Leap for Local AI",
          "info": "Discover how Google's Gemini Nano model is a breakthrough for AI in the browser. Like NASA's Gemini spaceflight preceded the Apollo moon landings, Gemini Nano is the stepping stone to an age of powerful AI running locally on every device, starting with Chrome.",
          "imgSrc": "/speaker-photos/2025/rabouw-rowdy.jpeg",
-         "isFeatured": false,
-         "isPublishable": false
+         "isFeatured": true,
+         "isPublishable": true
         },
         {
          "type": "Talk",
