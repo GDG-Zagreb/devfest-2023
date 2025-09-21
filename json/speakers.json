@@ -29,6 +29,16 @@
          "imgSrc": "/speaker-photos/2025/rasic-senko.jpeg",
          "isFeatured": true,
          "isPublishable": true
+        },
+        {
+         "type": "Talk",
+         "speakerName": "Borna Matijanić",
+         "speakerInfo": "Backend Team Lead and Branch Manager at Netgen",
+         "name": "Real-world Lessons from Technical Debt Autopsy",
+         "info": "Borna is a PHP/Symfony developer. He graduated Informatics at the Faculty of Electrical Engineering, Computer Science and Information Technology Osijek. Doing web stuff for 7 years. Besides arranging ones and zeros into request and response, loves to speak at conferences and organizes local PHP meetups. Slavonia evangelist.",
+         "imgSrc": "/speaker-photos/2025/matijanic-borna.jpeg",
+         "isFeatured": true,
+         "isPublishable": true
         }
     ]
 }
