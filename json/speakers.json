@@ -17,7 +17,7 @@
          "name": "One Small Model for Chrome, One Giant Leap for Local AI",
          "info": "Discover how Google's Gemini Nano model is a breakthrough for AI in the browser. Like NASA's Gemini spaceflight preceded the Apollo moon landings, Gemini Nano is the stepping stone to an age of powerful AI running locally on every device, starting with Chrome.",
          "imgSrc": "/speaker-photos/2025/rabouw-rowdy.jpeg",
-         "isFeatured": true,
+         "isFeatured": false,
          "isPublishable": true
         },
         {
@@ -47,6 +47,16 @@
          "name": "Perfectionism vs Continuous Growth",
          "info": "After 8 years as a QA engineer, Elvina now supports CEOs and business owners in transforming mindset and performance, bridging tech and psychology to unlock growth. Evelina will reveal how perfectionism, often disguised as “high standards,” can actually block innovation and how shifting to a growth mindset empowers teams to deliver more impact with less stress.",
          "imgSrc": "/speaker-photos/2025/suleimanova-elvina.jpeg",
+         "isFeatured": true,
+         "isPublishable": true
+        },
+        {
+         "type": "Talk",
+         "speakerName": "Dean Djermanović",
+         "speakerInfo": "Dean is an Android Engineer based in Zagreb, Croatia. He works as an Android consultant and freelancer. With 8 years of experience in Android development, he focuses on building real-world products for clients and leading mobile teams.\n\nIn the past, Dean contributed to numerous tutorials and Android books as part of the kodeco.com (formerly RayWenderlich.com) tutorial team. While he used to be more active in writing and content creation, these days he’s more focused on shipping features and solving real-world problems. He occasionally speaks at tech meetups and conferences.\n\nOutside of work, he enjoys biking, boxing and hitting the gym.",
+         "name": "Building a Weather Agent on Android with Koog",
+         "info": "In this session, you will learn the basics of Koog, the new open‑source Kotlin framework for building AI agents on the JVM. I’ll guide you through building a small Android app that uses Koog to ask a language model for weather forecasts and then displays the results. We’ll cover:\n- how to add Koog to an Android project setup\n- how to write a simple single‑run agent that talks to a weather API\n- how to connect the agent to an LLM (like OpenAI or Google Gemini)\n- how to show the forecast in a basic Compose UI\n\nNo prior experience with Koog is needed. By the end you will have a simple working Android app and code that shows how to build your own agents in Kotlin.",
+         "imgSrc": "/speaker-photos/2025/djermanovic-dean.jpg",
          "isFeatured": true,
          "isPublishable": true
         }
