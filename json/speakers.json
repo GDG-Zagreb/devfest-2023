@@ -59,6 +59,16 @@
          "imgSrc": "/speaker-photos/2025/djermanovic-dean.jpg",
          "isFeatured": true,
          "isPublishable": true
+        },
+        {
+         "type": "Talk",
+         "speakerName": "Eddy Wolf",
+         "speakerInfo": "Student at University of practical studies Split",
+         "sessionName": "Containerized Systems and Applications",
+         "sessionInfo": "A presentation diving in the current state of virtualized and containerized applications/systems, how they can be utilized for cross-platform implementation of applications, and the security and usability concerns they bring with them.",
+         "imgSrc": "/speaker-photos/2025/wolf-eddy.jpeg",
+         "isFeatured": false,
+         "isPublishable": false
         }
     ]
 }
