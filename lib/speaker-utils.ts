@@ -6,15 +6,16 @@ import speakers2023 from '@/json/archive/2023/speakers.json';
 export type BaseSpeaker = {
     type: string;
     speakerName: string;
-    speakerInfo: string;
-    name: string;
-    info: string;
-    imgSrc: string;
+    speakerJobTitle: string;
+    sessionTitle: string;
+    sessionDescription: string;
+    speakerImgSrc: string;
 };
 
 // Current speaker type (2025) with featured flag
 export type Speaker = BaseSpeaker & {
     isFeatured: boolean;
+    isPublishable: boolean;
 };
 
 export type ScheduleItem = {
@@ -35,23 +36,49 @@ export type EnhancedScheduleItem = ScheduleItem & {
 export function getSpeakerByName(speakerName: string, year?: string): BaseSpeaker | undefined {
     switch(year) {
         case '2023':
-            return speakers2023.speakers.find((speaker: BaseSpeaker) => 
+            const speaker2023 = speakers2023.speakers.find((speaker) =>
                 speaker.speakerName === speakerName
             );
+            if (speaker2023) {
+                return {
+                    type: speaker2023.type,
+                    speakerName: speaker2023.speakerName,
+                    speakerJobTitle: speaker2023.speakerInfo,
+                    sessionTitle: speaker2023.name,
+                    sessionDescription: speaker2023.info,
+                    speakerImgSrc: speaker2023.imgSrc
+                };
+            }
+            return undefined;
         case '2024':
-            return speakers2024.speakers.find((speaker: BaseSpeaker) => 
+            const speaker2024 = speakers2024.speakers.find((speaker) =>
                 speaker.speakerName === speakerName
             );
+            if (speaker2024) {
+                return {
+                    type: speaker2024.type,
+                    speakerName: speaker2024.speakerName,
+                    speakerJobTitle: speaker2024.speakerInfo,
+                    sessionTitle: speaker2024.name,
+                    sessionDescription: speaker2024.info,
+                    speakerImgSrc: speaker2024.imgSrc
+                };
+            }
+            return undefined;
         default:
             // For current year (2025), we need to return BaseSpeaker (without isFeatured)
-            const currentSpeaker = speakers.speakers.find((speaker: Speaker) => 
+            const currentSpeaker = speakers.speakers.find((speaker) =>
                 speaker.speakerName === speakerName
             );
             if (currentSpeaker) {
-                // Strip the isFeatured property to match BaseSpeaker type
-                // eslint-disable-next-line @typescript-eslint/no-unused-vars
-                const { isFeatured, ...baseSpeaker } = currentSpeaker;
-                return baseSpeaker;
+                return {
+                    type: currentSpeaker.type,
+                    speakerName: currentSpeaker.speakerName,
+                    speakerJobTitle: currentSpeaker.speakerInfo,
+                    sessionTitle: currentSpeaker.name,
+                    sessionDescription: currentSpeaker.info,
+                    speakerImgSrc: currentSpeaker.imgSrc
+                };
             }
             return undefined;
     }
@@ -68,8 +95,8 @@ export function enhanceScheduleWithSpeakers(schedule: ScheduleItem[], year?: str
                 return {
                     ...item,
                     speaker,
-                    // Use speaker's talk name if no custom name provided
-                    name: item.name || speaker.name,
+                    // Use speaker's session title if no custom name provided
+                    name: item.name || speaker.sessionTitle,
                     type: item.type || speaker.type
                 };
             }
@@ -84,12 +111,32 @@ export function enhanceScheduleWithSpeakers(schedule: ScheduleItem[], year?: str
 export function getAllSpeakers(year?: string): BaseSpeaker[] {
     switch(year) {
         case '2023':
-            return speakers2023.speakers as BaseSpeaker[];
+            return speakers2023.speakers.map((speaker) => ({
+                type: speaker.type,
+                speakerName: speaker.speakerName,
+                speakerJobTitle: speaker.speakerInfo,
+                sessionTitle: speaker.name,
+                sessionDescription: speaker.info,
+                speakerImgSrc: speaker.imgSrc
+            }));
         case '2024':
-            return speakers2024.speakers as BaseSpeaker[];
+            return speakers2024.speakers.map((speaker) => ({
+                type: speaker.type,
+                speakerName: speaker.speakerName,
+                speakerJobTitle: speaker.speakerInfo,
+                sessionTitle: speaker.name,
+                sessionDescription: speaker.info,
+                speakerImgSrc: speaker.imgSrc
+            }));
         default:
-            // For current year, strip isFeatured from all speakers
-            // eslint-disable-next-line @typescript-eslint/no-unused-vars
-            return speakers.speakers.map(({ isFeatured, ...baseSpeaker }) => baseSpeaker);
+            // For current year, map to new field names
+            return speakers.speakers.map((speaker) => ({
+                type: speaker.type,
+                speakerName: speaker.speakerName,
+                speakerJobTitle: speaker.speakerInfo,
+                sessionTitle: speaker.name,
+                sessionDescription: speaker.info,
+                speakerImgSrc: speaker.imgSrc
+            }));
     }
 }
