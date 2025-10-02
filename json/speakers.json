@@ -37,7 +37,7 @@
          "name": "Real-world Lessons from Technical Debt Autopsy",
          "info": "Borna is a PHP/Symfony developer. He graduated Informatics at the Faculty of Electrical Engineering, Computer Science and Information Technology Osijek. Doing web stuff for 7 years. Besides arranging ones and zeros into request and response, loves to speak at conferences and organizes local PHP meetups. Slavonia evangelist.",
          "imgSrc": "/speaker-photos/2025/matijanic-borna.jpeg",
-         "isFeatured": true,
+         "isFeatured": false,
          "isPublishable": true
         },
             {
@@ -71,10 +71,11 @@
          "isPublishable": true   
         },
         {
+         "type": "Talk",
          "speakerName": "Bruno Banelli",
          "speakerInfo": "Emerging Technologies Architect at Sartura d.d.",
          "name": "TamaGo: The Bare Metal Go Framework for Embedded Devices and Hypervisors",
-         "info": "TamaGo is a revolutionary framework that enables Go applications to run directly on bare metal hardware without requiring an operating system or C runtime dependencies. The project addresses a critical security challenge in embedded systems by dramatically reducing the attack surface through the elimination of traditional firmware layers. By extending Go's compiler with a new tamago target, developers can write secure embedded applications using Go's memory-safe language features while maintaining full standard library compatibility with minimal code changes—requiring only a single import statement to transform standard Go code into bare metal firmware.\n\nThe framework supports an impressive range of hardware platforms including x86-64 systems (QEMU microvm, Firecracker, UEFI), ARM processors (NXP i.MX6 series, Raspberry Pi family), and RISC-V architectures (SiFive FU540). TamaGo's architecture consists of three main components: a modified Go distribution that adds bare metal compilation support, hardware-specific SoC driver packages, and board support packages that handle platform initialization. Additionally, the framework offers a unique userspace execution mode that provides system call isolation benefits while running under OS supervision, enabling in-memory file system emulation and custom networking handlers.\n\nAdditionally, there is a strong intention of mainlining this project to Go's compiler with a -target=none option which would allow seamless operation with a standard Go toolchain with support for FIPS 140-3 security features as well!",
+ "info": "Trying to bring legacy calmness to modern calamity, Bruno is focused on Go development and participating in various network and cybersecurity projects, namely currently being an ETSI rapporteur for the EN 304 627 Cyber Resilience Act (CRA) project.\n\nHe has chaired 2025 NetDev 0x19, brought the first Linux Foundation Networking hackathon to Croatia and is actively participating in academic teaching at multiple institutions both in Croatia and abroad. Wearing many hats (and beards) in multiple companies, one of his latest engagements is developing and placing to market first fully software open source switch based on mainline Linux (switchdev).\n\nOur talk topic - TamaGo is a revolutionary framework that enables Go applications to run directly on bare metal hardware without requiring an operating system or C runtime dependencies. By extending Go's compiler with a new tamago target, developers can write secure embedded applications using Go's memory-safe language features.\n",
          "imgSrc": "/speaker-photos/2025/banelli-bruno.jpg",
          "isFeatured": true,
          "isPublishable": true
