@@ -75,10 +75,20 @@
          "speakerName": "Bruno Banelli",
          "speakerInfo": "Emerging Technologies Architect at Sartura d.d.",
          "name": "TamaGo: The Bare Metal Go Framework for Embedded Devices and Hypervisors",
- "info": "Trying to bring legacy calmness to modern calamity, Bruno is focused on Go development and participating in various network and cybersecurity projects, namely currently being an ETSI rapporteur for the EN 304 627 Cyber Resilience Act (CRA) project.\n\nHe has chaired 2025 NetDev 0x19, brought the first Linux Foundation Networking hackathon to Croatia and is actively participating in academic teaching at multiple institutions both in Croatia and abroad. Wearing many hats (and beards) in multiple companies, one of his latest engagements is developing and placing to market first fully software open source switch based on mainline Linux (switchdev).\n\nOur talk topic - TamaGo is a revolutionary framework that enables Go applications to run directly on bare metal hardware without requiring an operating system or C runtime dependencies. By extending Go's compiler with a new tamago target, developers can write secure embedded applications using Go's memory-safe language features.\n",
+         "info": "Trying to bring legacy calmness to modern calamity, Bruno is focused on Go development and participating in various network and cybersecurity projects, namely currently being an ETSI rapporteur for the EN 304 627 Cyber Resilience Act (CRA) project.\n\nHe has chaired 2025 NetDev 0x19, brought the first Linux Foundation Networking hackathon to Croatia and is actively participating in academic teaching at multiple institutions both in Croatia and abroad. Wearing many hats (and beards) in multiple companies, one of his latest engagements is developing and placing to market first fully software open source switch based on mainline Linux (switchdev).\n\nOur talk topic - TamaGo is a revolutionary framework that enables Go applications to run directly on bare metal hardware without requiring an operating system or C runtime dependencies. By extending Go's compiler with a new tamago target, developers can write secure embedded applications using Go's memory-safe language features.\n",
          "imgSrc": "/speaker-photos/2025/banelli-bruno.jpg",
          "isFeatured": true,
          "isPublishable": true
-        }
+        },
+        {
+         "type": "Talk",
+         "speakerName": "Fabian Krumbholz",
+         "speakerInfo": "Principal Web Performance Consultant at Cognizant Netcentric",
+         "name": "Future-Proof Your Career: A Student's Guide to Thriving with AI",
+         "info": "After speaking with students at numerous DevFests last year, their biggest anxiety became clear: how to launch a career in the AI era. This hands-on session is built to solve their core challenges with a perfectly matched set of Google technologies. In this practical workshop, we will: Build a unique career website with Google's AI tools, providing a powerful answer to the student question, \"How do I stand out?\" Master the new AI features in Chrome DevTools. As a performance specialist, I’ll show how this proves their professional-grade skills and lets them debug websites significantly faster than most developers. Turn ideas into reality by building and deploying a functional web app with Firebase Studio, creating an impressive project for their portfolio. This session moves beyond theory. Attendees will leave not with more questions, but with a tangible portfolio piece, renewed confidence, and a list of concrete action points they can use immediately to launch their career.",
+         "imgSrc": "/speaker-photos/2025/krumbholz-fabian.jpg",
+         "isFeatured": false,
+         "isPublishable": true
+        } 
     ]
 }
