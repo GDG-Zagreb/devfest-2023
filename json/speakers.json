@@ -89,6 +89,15 @@
          "imgSrc": "/speaker-photos/2025/krumbholz-fabian.jpg",
          "isFeatured": true,
          "isPublishable": true
-        } 
+        },
+    {
+         "speakerName": "Andre Sara",
+         "speakerInfo": "Chief Technologist at DXC Technology",
+         "name": "Ethical Considerations and Responsible AI Development",
+         "info": "This session is about the Ethical considerations of GenAI development and use and how developers can use Google Cloud tools like SynthID, Model Armor and building guardrails for their Agents/LLM to protect against malicious actors.\n\n\n\nI have presented this talk now twice, once at Brussels Future of European AI and another time at a DXC speaking event (with more than 700 participants!) - it was really well received and very thought provoking as it gives Developers a different perspective on using/developing GenAI",
+         "imgSrc": "/speaker-photos/2025/sara-andre.jpeg",
+         "isFeatured": false,
+         "isPublishable": false
+        }
     ]
 }
