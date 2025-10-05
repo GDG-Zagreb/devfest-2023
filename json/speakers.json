@@ -91,6 +91,7 @@
          "isPublishable": true
         },
     {
+        "type": "Talk",
          "speakerName": "Andre Sara",
          "speakerInfo": "Chief Technologist at DXC Technology",
          "name": "Ethical Considerations and Responsible AI Development",
