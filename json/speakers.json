@@ -47,7 +47,7 @@
          "name": "Perfectionism vs Continuous Growth",
          "info": "After 8 years as a QA engineer, Elvina now supports CEOs and business owners in transforming mindset and performance, bridging tech and psychology to unlock growth. Evelina will reveal how perfectionism, often disguised as “high standards,” can actually block innovation and how shifting to a growth mindset empowers teams to deliver more impact with less stress.",
          "imgSrc": "/speaker-photos/2025/suleimanova-elvina.jpeg",
-         "isFeatured": true,
+         "isFeatured": false,
          "isPublishable": true
         },
         {
@@ -87,7 +87,7 @@
          "name": "Future-Proof Your Career: A Student's Guide to Thriving with AI",
          "info": "After speaking with students at numerous DevFests last year, their biggest anxiety became clear: how to launch a career in the AI era. This hands-on session is built to solve their core challenges with a perfectly matched set of Google technologies. In this practical workshop, we will: Build a unique career website with Google's AI tools, providing a powerful answer to the student question, \"How do I stand out?\" Master the new AI features in Chrome DevTools. As a performance specialist, I’ll show how this proves their professional-grade skills and lets them debug websites significantly faster than most developers. Turn ideas into reality by building and deploying a functional web app with Firebase Studio, creating an impressive project for their portfolio. This session moves beyond theory. Attendees will leave not with more questions, but with a tangible portfolio piece, renewed confidence, and a list of concrete action points they can use immediately to launch their career.",
          "imgSrc": "/speaker-photos/2025/krumbholz-fabian.jpg",
-         "isFeatured": false,
+         "isFeatured": true,
          "isPublishable": true
         } 
     ]
