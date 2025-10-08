@@ -57,7 +57,7 @@
          "name": "Building a Weather Agent on Android with Koog",
          "info": "In this session, you will learn the basics of Koog, the new open-source Kotlin framework for building AI agents on the JVM. I'll guide you through building a small Android app that uses Koog to ask a language model for weather forecasts and then displays the results. We'll cover:\n\n• How to add Koog to an Android project setup\n• How to write a simple single-run agent that talks to a weather API\n• How to connect the agent to an LLM (like OpenAI or Google Gemini)\n• How to show the forecast in a basic Compose UI\n\nNo prior experience with Koog is needed. By the end you will have a simple working Android app and code that shows how to build your own agents in Kotlin.",
          "imgSrc": "/speaker-photos/2025/djermanovic-dean.jpg",
-         "isFeatured": true,
+         "isFeatured": false,
          "isPublishable": true
         },
         {
@@ -95,10 +95,10 @@
          "speakerName": "Andre Sara",
          "speakerInfo": "Chief Technologist at DXC Technology",
          "name": "Ethical Considerations and Responsible AI Development",
-         "info": "This session is about the Ethical considerations of GenAI development and use and how developers can use Google Cloud tools like SynthID, Model Armor and building guardrails for their Agents/LLM to protect against malicious actors.\n\n\n\nI have presented this talk now twice, once at Brussels Future of European AI and another time at a DXC speaking event (with more than 700 participants!) - it was really well received and very thought provoking as it gives Developers a different perspective on using/developing GenAI",
+         "info": "This session is about the Ethical considerations of GenAI development and use and how developers can use Google Cloud tools like SynthID, Model Armor and building guardrails for their Agents/LLM to protect against malicious actors.\n\n\n\nAndre has presented this talk twice, once at Brussels Future of European AI and another time at a DXC speaking event (with more than 700 participants!) - it was really well received and very thought provoking as it gives Developers a different perspective on using/developing GenAI.",
          "imgSrc": "/speaker-photos/2025/sara-andre.jpeg",
-         "isFeatured": false,
-         "isPublishable": false
+         "isFeatured": true,
+         "isPublishable": true
         }
     ]
 }
