@@ -231,7 +231,7 @@ const MainPage = () => {
                                                         
                                                         <div className='pt-4 border-t border-yellow-200 dark:border-yellow-600'>
                                                             <p className='text-sm text-gray-600 dark:text-gray-400 mb-4'>
-                                                                <strong>Applications close September 30, 2025</strong> • Selected pitchers notified by October 10, 2025
+                                                                <strong>Applications close October 12, 2025</strong> • Selected pitchers notified by October 15, 2025
                                                             </p>
                                                             
                                                             <Link 
