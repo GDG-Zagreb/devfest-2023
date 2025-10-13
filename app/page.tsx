@@ -2,6 +2,7 @@
 
 import ImageGallery from '@/components/image-gallery';
 import FeaturedSpeakers from '@/components/featured-speakers';
+import Sponsors from '@/components/sponsors';
 import { Button } from '@/components/ui/button';
 import GDGZagrebLogo from '@/public/assets/GDG-Zagreb-logo@3x.png';
 import HeaderImageLarge from '@/public/assets/header-lg@2x.jpg';
@@ -432,6 +433,9 @@ const MainPage = () => {
                         </div>
                     </div>
                 )}
+
+                {/* Sponsors Section */}
+                <Sponsors />
 
                 <div className='p-6 max-w-[1020px] rounded-2xl shadow-lg bg-white mt-12'>
                     <div></div>
