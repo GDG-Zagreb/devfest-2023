@@ -36,22 +36,21 @@ export default function Sponsors() {
 
     return (
         <div className='w-full max-w-[1020px] mt-12'>
-            <div className='bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-3xl p-8 shadow-xl border border-gray-200 dark:border-gray-700'>
-                {/* Header */}
-                <div className='text-center mb-8'>
-                    <div className='flex items-center justify-center gap-3 mb-4'>
-                        <Building2 className='w-8 h-8 text-purple-600' />
-                        <h2 className='text-3xl md:text-4xl font-bold text-gray-800 dark:text-gray-200'>
-                            Our Sponsors
-                        </h2>
-                    </div>
-                    <p className='text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto'>
-                        Thank you to our amazing sponsors who make DevFest possible
-                    </p>
+            {/* Header */}
+            <div className='text-center mb-8'>
+                <div className='flex items-center justify-center gap-3 mb-4'>
+                    <Building2 className='w-8 h-8 text-purple-600' />
+                    <h2 className='text-3xl md:text-4xl font-bold text-gray-800 dark:text-gray-200'>
+                        Our Sponsors
+                    </h2>
                 </div>
+                <p className='text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto'>
+                    Thank you to our amazing sponsors who make DevFest possible
+                </p>
+            </div>
 
-                {/* Sponsor Grid */}
-                <div className={`grid ${getGridColumns()} gap-6`}>
+            {/* Sponsor Grid */}
+            <div className={`grid ${getGridColumns()} gap-6`}>
                     {sponsors.map((sponsor) => {
                         const content = (
                             <div className={`group relative bg-white dark:bg-gray-200 rounded-2xl p-8 shadow-lg border border-gray-200 dark:border-gray-100 hover:shadow-2xl transition-all duration-300 hover:scale-105 flex items-center justify-center ${CARD_HEIGHT}`}>
@@ -110,7 +109,6 @@ export default function Sponsors() {
                             ))}
                         </>
                     )}
-                </div>
             </div>
         </div>
     );

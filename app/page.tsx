@@ -43,12 +43,14 @@ const MainPage = () => {
                         </div>
                         
                         {/* Modern Event Details Section */}
-                        <div className='w-full max-w-4xl mt-12 space-y-8'>
+                        <div className='w-full max-w-[1020px] mx-auto mt-12 space-y-8'>
                             {/* Date and Time */}
                             <div className='text-center space-y-4'>
-                                <div className='flex items-center justify-center gap-3 text-3xl md:text-5xl font-bold bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 bg-clip-text text-transparent'>
-                                    <Calendar className='w-8 h-8 md:w-12 md:h-12' />
-                                    <span>24th October 2025</span>
+                                <div className='flex items-center justify-center gap-3'>
+                                    <Calendar className='w-8 h-8 md:w-12 md:h-12 text-purple-600' />
+                                    <span className='text-3xl md:text-5xl font-bold bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 bg-clip-text text-transparent'>
+                                        24th October 2025
+                                    </span>
                                 </div>
                                 <div className='flex items-center justify-center gap-3 text-xl md:text-2xl font-semibold text-gray-700 dark:text-gray-300'>
                                     <Clock className='w-6 h-6' />
@@ -70,7 +72,7 @@ const MainPage = () => {
                                 </Link>
 
                                 {/* Combined Speakers & Agenda Section */}
-                                <div className='w-full max-w-6xl'>
+                                <div className='w-full'>
                                     <div className='bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-3xl p-8 shadow-xl border border-gray-200 dark:border-gray-700'>
                                         <div className='text-center space-y-6'>
                                             {/* Combined Header */}
@@ -117,7 +119,7 @@ const MainPage = () => {
                                 </div>
 
                                 {/* Features */}
-                                <div className='w-full max-w-4xl'>
+                                <div className='w-full'>
                                     <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
                                         <div className='bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 rounded-2xl p-6 shadow-lg border border-green-200 dark:border-green-700'>
                                             <div className='flex items-center justify-center gap-3'>
@@ -140,7 +142,7 @@ const MainPage = () => {
                                 </div>
 
                                 {/* Pitch Your Project Section */}
-                                <div className='w-full max-w-4xl mt-8'>
+                                <div className='w-full mt-8'>
                                     <div className='bg-gradient-to-r from-yellow-50 to-orange-50 dark:from-yellow-900/20 dark:to-orange-900/20 rounded-3xl p-8 shadow-xl border border-yellow-200 dark:border-yellow-700'>
                                         <div className='text-center space-y-6'>
                                             <div className='flex items-center justify-center gap-3 mb-4'>
@@ -264,7 +266,7 @@ const MainPage = () => {
                     <div className='flex flex-col gap-y-6 my-32 items-center'>
                         <ImageGallery />
                     </div>
-                    <div className='p-6 rounded-2xl shadow-lg bg-background w-full'>
+                    <div className='p-6 rounded-2xl shadow-lg bg-background w-full max-w-[1020px] mx-auto'>
                         <h1 className='text-center lg:text-3xl font-bold mb-3'>
                             Location
                         </h1>

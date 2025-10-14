@@ -266,7 +266,7 @@ export default function FeaturedSpeakers() {
     );
 
     return (
-        <div className='w-full max-w-6xl mt-12'>
+        <div className='w-full max-w-[1020px] mx-auto mt-12'>
             <div className='bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-3xl p-8 shadow-xl border border-gray-200 dark:border-gray-700'>
                 <div className='text-center mb-8'>
                     <div className='flex items-center justify-center gap-3 mb-4'>

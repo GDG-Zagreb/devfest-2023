@@ -19,7 +19,7 @@ const ImageGallery = () => {
     ];
 
     return (
-        <div className='w-full max-w-4xl mx-auto'>
+        <div className='w-full max-w-[1020px] mx-auto'>
             <h1 className='text-center text-2xl font-bold mb-6'>
                 Snaps from DevFest 2024
             </h1>
