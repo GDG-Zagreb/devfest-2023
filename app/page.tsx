@@ -2,7 +2,9 @@
 
 import ImageGallery from '@/components/image-gallery';
 import FeaturedSpeakers from '@/components/featured-speakers';
+import PoweredBy from '@/components/powered-by';
 import Sponsors from '@/components/sponsors';
+import CommunityPartners from '@/components/community-partners';
 import { Button } from '@/components/ui/button';
 import GDGZagrebLogo from '@/public/assets/GDG-Zagreb-logo@3x.png';
 import HeaderImageLarge from '@/public/assets/header-lg@2x.jpg';
@@ -434,8 +436,14 @@ const MainPage = () => {
                     </div>
                 )}
 
+                {/* Powered By Section */}
+                <PoweredBy />
+
                 {/* Sponsors Section */}
                 <Sponsors />
+
+                {/* Community Partners Section */}
+                <CommunityPartners />
 
                 <div className='p-6 max-w-[1020px] rounded-2xl shadow-lg bg-white mt-12'>
                     <div></div>

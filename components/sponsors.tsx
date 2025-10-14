@@ -19,6 +19,11 @@ export default function Sponsors() {
             logo: '/sponsors/2025/01--span-logo.svg',
             website: 'https://span.eu/'
         },
+        {
+            name: 'A1',
+            logo: '/sponsors/2025/02--A1-logo.svg',
+            website: 'https://www.a1.hr/'
+        },
     ];
 
     // Helper function to determine grid columns based on sponsor count
@@ -30,7 +35,7 @@ export default function Sponsors() {
     };
 
     return (
-        <div className='w-full max-w-6xl mt-12'>
+        <div className='w-full max-w-[1020px] mt-12'>
             <div className='bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-3xl p-8 shadow-xl border border-gray-200 dark:border-gray-700'>
                 {/* Header */}
                 <div className='text-center mb-8'>
