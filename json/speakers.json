@@ -67,7 +67,7 @@
          "name": "Containerized Systems and Applications",
          "info": "A presentation diving in the current state of virtualized and containerized applications/systems, how they can be utilized for cross-platform implementation of applications, and the security and usability concerns they bring with them.",
          "imgSrc": "/speaker-photos/2025/wolf-eddy.jpeg",
-         "isFeatured": true,
+         "isFeatured": false,
          "isPublishable": true   
         },
         {
@@ -99,6 +99,17 @@
          "imgSrc": "/speaker-photos/2025/sara-andre.jpeg",
          "isFeatured": true,
          "isPublishable": true
+        },
+        {
+        "type": "Talk",
+         "speakerName": "Jasper Duizendstra",
+         "speakerInfo": "Independent Google Solutions Engineer & Expert",
+         "name": "Contextvibes: Opinionated AI-Assisted Solution Development",
+         "info": "Contextvibes is an open-source initiative Jasper created to master our new AI frontier. This presentation introduces solutions for moving beyond simple prompting into a structured, effective partnership with AI. Contextvibes is an opinionated ecosystem designed to provide our AI assistants with the deep, actionable context they need to be truly valuable teammates.",
+         "imgSrc": "/speaker-photos/2025/duizendstra-jasper.jpeg",
+         "isFeatured": true,
+         "isPublishable": true
         }
+
     ]
 }

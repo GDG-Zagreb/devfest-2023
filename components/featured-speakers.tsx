@@ -118,7 +118,7 @@ export default function FeaturedSpeakers() {
             {featuredSpeakers.map((speaker: Speaker) => (
                 <div
                     key={speaker.speakerName}
-                    className='bg-gradient-to-br from-white via-gray-50 to-purple-50 dark:from-gray-700 dark:via-gray-800 dark:to-purple-900/20 rounded-3xl p-6 shadow-xl border border-gray-200 dark:border-gray-600 hover:shadow-2xl transition-all duration-300'
+                    className='bg-gradient-to-br from-white via-gray-50 to-purple-50 dark:from-gray-700 dark:via-gray-800 dark:to-purple-900/20 rounded-3xl p-6 shadow-xl border border-gray-200 dark:border-gray-600 hover:shadow-2xl transition-all duration-300 self-start min-h-[450px]'
                 >
                     <div className='flex flex-col items-center text-center space-y-4'>
                         <div className='relative'>
@@ -142,7 +142,7 @@ export default function FeaturedSpeakers() {
                             <h4 className='text-lg font-bold text-gray-800 dark:text-gray-200 mb-2'>
                                 {speaker.name}
                             </h4>
-                            <ExpandableText 
+                            <ExpandableText
                                 text={speaker.info}
                                 className='text-sm text-gray-700 dark:text-gray-300'
                                 maxLines={3}
@@ -193,7 +193,7 @@ export default function FeaturedSpeakers() {
                 {featuredSpeakers.slice(1).map((speaker: Speaker) => (
                     <div
                         key={speaker.speakerName}
-                        className='bg-gradient-to-b from-white to-gray-50 dark:from-gray-700 dark:to-gray-800 rounded-2xl p-6 shadow-lg border border-gray-200 dark:border-gray-600 hover:shadow-xl transition-all duration-300'
+                        className='bg-gradient-to-b from-white to-gray-50 dark:from-gray-700 dark:to-gray-800 rounded-2xl p-6 shadow-lg border border-gray-200 dark:border-gray-600 hover:shadow-xl transition-all duration-300 self-start min-h-[380px]'
                     >
                         <div className='flex flex-col items-center text-center'>
                             <Image
@@ -213,7 +213,7 @@ export default function FeaturedSpeakers() {
                                 <p className='text-sm font-semibold text-gray-800 dark:text-gray-200 mb-2'>
                                     {speaker.name}
                                 </p>
-                                <ExpandableText 
+                                <ExpandableText
                                     text={speaker.info}
                                     className='text-xs text-gray-600 dark:text-gray-400'
                                     maxLines={2}
@@ -231,7 +231,7 @@ export default function FeaturedSpeakers() {
             {featuredSpeakers.map((speaker: Speaker) => (
                 <div
                     key={speaker.speakerName}
-                    className='bg-gradient-to-b from-white to-gray-50 dark:from-gray-700 dark:to-gray-800 rounded-2xl p-6 shadow-lg border border-gray-200 dark:border-gray-600 hover:shadow-xl transition-all duration-300 hover:scale-105'
+                    className='bg-gradient-to-b from-white to-gray-50 dark:from-gray-700 dark:to-gray-800 rounded-2xl p-6 shadow-lg border border-gray-200 dark:border-gray-600 hover:shadow-xl transition-all duration-300 hover:scale-105 self-start min-h-[420px]'
                 >
                     <div className='flex flex-col items-center text-center'>
                         <div className='relative mb-4'>
@@ -253,7 +253,7 @@ export default function FeaturedSpeakers() {
                             <p className='text-sm font-semibold text-gray-800 dark:text-gray-200 mb-2'>
                                 {speaker.name}
                             </p>
-                            <ExpandableText 
+                            <ExpandableText
                                 text={speaker.info}
                                 className='text-xs text-gray-600 dark:text-gray-400'
                                 maxLines={2}
