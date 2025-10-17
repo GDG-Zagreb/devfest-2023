@@ -77,7 +77,7 @@
          "name": "TamaGo: The Bare Metal Go Framework for Embedded Devices and Hypervisors",
          "info": "Trying to bring legacy calmness to modern calamity, Bruno is focused on Go development and participating in various network and cybersecurity projects, namely currently being an ETSI rapporteur for the EN 304 627 Cyber Resilience Act (CRA) project.\n\nHe has chaired 2025 NetDev 0x19, brought the first Linux Foundation Networking hackathon to Croatia and is actively participating in academic teaching at multiple institutions both in Croatia and abroad. Wearing many hats (and beards) in multiple companies, one of his latest engagements is developing and placing to market first fully software open source switch based on mainline Linux (switchdev).\n\nOur talk topic - TamaGo is a revolutionary framework that enables Go applications to run directly on bare metal hardware without requiring an operating system or C runtime dependencies. By extending Go's compiler with a new tamago target, developers can write secure embedded applications using Go's memory-safe language features.\n",
          "imgSrc": "/speaker-photos/2025/banelli-bruno.jpg",
-         "isFeatured": true,
+         "isFeatured": false,
          "isPublishable": true
         },
         {
@@ -107,6 +107,16 @@
          "name": "Contextvibes: Opinionated AI-Assisted Solution Development",
          "info": "Contextvibes is an open-source initiative Jasper created to master our new AI frontier. This presentation introduces solutions for moving beyond simple prompting into a structured, effective partnership with AI. Contextvibes is an opinionated ecosystem designed to provide our AI assistants with the deep, actionable context they need to be truly valuable teammates.",
          "imgSrc": "/speaker-photos/2025/duizendstra-jasper.jpeg",
+         "isFeatured": true,
+         "isPublishable": true
+        },
+            {
+        "type": "Talk",
+         "speakerName": "Dražen Lučanin",
+         "speakerInfo": "Head of IT Systems and Technical Services at the City of Zagreb",
+         "name": "Open data and open APIs for efficient city management",
+         "info": "Dražen will explore how open data and open APIs can improve city management, showcasing initiatives like the City’s Open Data Portal, real-time traffic regulation app, Waze and Google Maps integrations, and the evolution of public transport data through the ZET info v2 case study.",
+         "imgSrc": "/speaker-photos/2025/lucanin-drazen.jpeg",
          "isFeatured": true,
          "isPublishable": true
         }
