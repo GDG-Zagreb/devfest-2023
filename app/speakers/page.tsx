@@ -8,6 +8,7 @@ const Speakers = () => {
             <h1 className='mt-3 mb-6 text-4xl font-bold'>
                 Meet the speakers and find out more about their talks
             </h1>
+
             {/* <h2 className='mt-3 mb-6 text-2xl font-bold'>
                 Want to know more about the agenda? Check &nbsp;
                 <Link href={'/agenda'}>

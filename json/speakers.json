@@ -87,7 +87,7 @@
          "name": "Future-Proof Your Career: A Student's Guide to Thriving with AI",
          "info": "After speaking with students at numerous DevFests last year, their biggest anxiety became clear: how to launch a career in the AI era. This hands-on session is built to solve their core challenges with a perfectly matched set of Google technologies. In this practical workshop, we will: Build a unique career website with Google's AI tools, providing a powerful answer to the student question, \"How do I stand out?\" Master the new AI features in Chrome DevTools. As a performance specialist, I’ll show how this proves their professional-grade skills and lets them debug websites significantly faster than most developers. Turn ideas into reality by building and deploying a functional web app with Firebase Studio, creating an impressive project for their portfolio. This session moves beyond theory. Attendees will leave not with more questions, but with a tangible portfolio piece, renewed confidence, and a list of concrete action points they can use immediately to launch their career.",
          "imgSrc": "/speaker-photos/2025/krumbholz-fabian.jpg",
-         "isFeatured": true,
+         "isFeatured": false,
          "isPublishable": true
         },
     {
@@ -117,6 +117,16 @@
          "name": "Open data and open APIs for efficient city management",
          "info": "Dražen will explore how open data and open APIs can improve city management, showcasing initiatives like the City’s Open Data Portal, real-time traffic regulation app, Waze and Google Maps integrations, and the evolution of public transport data through the ZET info v2 case study.",
          "imgSrc": "/speaker-photos/2025/lucanin-drazen.jpeg",
+         "isFeatured": true,
+         "isPublishable": true
+        },
+        {
+        "type": "Talk",
+         "speakerName": "Matthias Geisler",
+         "speakerInfo": "Senior Software Engineer at Airalo",
+         "name": "Let's speak about Accessibility",
+         "info": "We will explore practical approaches of making Android apps accessible and how this work naturally improves our development practices. Also, with the European Accessibility Act (EAA) now in effect, understanding these principles isn't just good practice—it's becoming essential for many Android applications and the businesses behind them.",
+         "imgSrc": "/speaker-photos/2025/geisler-matthias.jpeg",
          "isFeatured": true,
          "isPublishable": true
         }
