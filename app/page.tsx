@@ -80,7 +80,7 @@ const MainPage = () => {
                                             <div className='flex items-center justify-center gap-3 mb-6'>
                                                 <Users className='w-8 h-8 text-purple-600' />
                                                 <h2 className='text-2xl md:text-3xl font-bold text-gray-800 dark:text-gray-200'>
-                                                    15 speakers & 11 pitchers over 2 stages
+                                                  10+ speakers & project pitch sessions over 2 stages
                                                 </h2>
                                             </div>
 
