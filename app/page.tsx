@@ -18,7 +18,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 const MainPage = () => {
-    const isAgendaAvailable = false;
+    const isAgendaAvailable = true;
    
     const [isModalOpen, setIsModalOpen] = useState(false);
 

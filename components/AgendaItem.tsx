@@ -1,35 +1,40 @@
-
 interface AgendaItemProps {
     talk: {
         time: string;
         type?: string;
-        speakerName?: string;
-        speakerInfo?: string;
         name?: string;
-        info?: string;
-        imgSrc?: string;
+        speaker?: {
+            speakerName: string;
+            speakerJobTitle: string;
+            sessionTitle: string;
+            speakerImgSrc: string;
+        };
     };
 }
 
 const AgendaItem = ({ talk }: AgendaItemProps) => {
     return (
-        <div className='flex flex-col lg:flex-row p-3 gap-6 justify-between border rounded-lg bg-background'>
-            <div className='flex flex-row gap-4 items-center sm:w-full md:w-5/6 lg:w-2/3 '>
-                <div className='text-font-semibold'>{talk.time}</div>
-                <div className='text-bold text-xl md:text-2xl md:w-4/5 lg:w-full'>
+        <div className='flex flex-row p-4 gap-4 border rounded-lg bg-background hover:shadow-md transition-shadow'>
+            {/* Time */}
+            <div className='text-semibold min-w-[60px]'>{talk.time}</div>
+
+            {/* Talk Title and Speaker Info */}
+            <div className='flex flex-col gap-2'>
+                <div className='text-bold text-xl md:text-2xl'>
                     {talk.name || 'Event'}
                 </div>
-            </div>
 
-            <div className='flex flex-row gap-2 lg:w-1/2 ml-[56px]  lg:ml-0'>
-                <div className='flex flex-col w-full gap-1'>
-                    <div className='text-semibold text-xl text-muted-foreground'>
-                        {talk.speakerName}
+                {/* Speaker Name and Title */}
+                {talk.speaker && (
+                    <div className='flex flex-col gap-1'>
+                        <div className='text-semibold text-lg font-semibold text-muted-foreground'>
+                            {talk.speaker.speakerName}
+                        </div>
+                        <div className='text-sm text-muted-foreground'>
+                            {talk.speaker.speakerJobTitle}
+                        </div>
                     </div>
-                    <div className='text-semibold text-xs lg:w-4/5 text-muted-foreground'>
-                        {talk.speakerInfo}
-                    </div>
-                </div>
+                )}
             </div>
         </div>
     );
