@@ -90,7 +90,7 @@ export function SiteHeader() {
 
                         {/* Get Tickets - Highlighted */}
                         <Link href={externalLinks[0].href} target='_blank' rel='noopener noreferrer'>
-                            <Button size="sm" className="h-9 bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700">
+                            <Button size="sm" className="h-9 bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white">
                                 <Ticket className='h-4 w-4 mr-2' />
                                 Get Tickets
                             </Button>
