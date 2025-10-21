@@ -24,6 +24,11 @@ export default function CommunityPartners() {
             logo: '/partners/2025/tabu-logo.svg',
             website: 'https://tabu.hr/'
         },
+        {
+            name: 'Wespa',
+            logo: '/partners/2025/wespa-logo.svg',
+            website: 'https://wespa.hr/en/'
+        }
     ];
 
     return (
@@ -82,7 +87,7 @@ export default function CommunityPartners() {
                 })}
 
                 {/* Become a Community Partner CTA Card */}
-                <a
+                {/* <a
                     href='https://linktr.ee/zagrebgdg'
                     target='_blank'
                     rel='noopener noreferrer'
@@ -99,7 +104,7 @@ export default function CommunityPartners() {
                             </p>
                         </div>
                     </div>
-                </a>
+                </a> */}
             </div>
         </div>
     );
