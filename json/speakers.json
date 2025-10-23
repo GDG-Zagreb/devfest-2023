@@ -35,7 +35,7 @@
          "speakerName": "Borna Matijanić",
          "speakerInfo": "Backend Team Lead and Branch Manager at Netgen",
          "name": "Real-world Lessons from Technical Debt Autopsy",
-         "info": "Borna is a PHP/Symfony developer. He graduated Informatics at the Faculty of Electrical Engineering, Computer Science and Information Technology Osijek. Doing web stuff for 7 years. Besides arranging ones and zeros into request and response, loves to speak at conferences and organizes local PHP meetups. Slavonia evangelist.",
+         "info": "In this session, we’ll explore real-world case studies of successfully rehabilitating problematic codebases. Learn diagnostic techniques for uncovering systemic issues and discover practical strategies for refactoring and long-term improvement. Perfect for developers and tech leads aiming to turn “legacy nightmares” into maintainable, high-performing systems.",
          "imgSrc": "/speaker-photos/2025/matijanic-borna.jpeg",
          "isFeatured": false,
          "isPublishable": true
