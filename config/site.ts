@@ -1,9 +1,9 @@
 export const siteConfig = {
-    name: 'GDG Croatia DevFest 2025',
+    name: 'GDG Croatia DevFest 2026',
     url: 'https://gdg.community.dev/gdg-zagreb/',
-    description: 'Website for the upcoming DevFest 2025 conference',
+    description: 'The official website for GDG Croatia DevFest 2026, organized by GDG Zagreb and partners.',
     links: {
-        twitter: 'https://twitter.com/gdgzagreb',
+        twitter: 'https://x.com/gdgzagreb',
         github: 'https://github.com/GDG-Zagreb',
         linkedIn: 'https://www.linkedin.com/company/gdgzagreb/',
         linkTree: 'https://linktr.ee/zagrebgdg',

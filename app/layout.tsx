@@ -1,4 +1,5 @@
 import './globals.css';
+import 'yet-another-react-lightbox/styles.css';
 import type { Metadata } from 'next';
 import { ThemeProvider } from '@/components/theme-provider';
 import { Inter } from 'next/font/google';
