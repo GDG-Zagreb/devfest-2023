@@ -28,7 +28,6 @@ const ImageGallery = () => {
     const slides = images.map((src) => ({ src }));
 
     const openLightbox = (index: number) => {
-        console.log('Opening lightbox for image:', index);
         setPhotoIndex(index);
         setOpen(true);
     };

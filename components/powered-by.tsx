@@ -5,7 +5,7 @@ import { Zap } from 'lucide-react';
 
 export default function PoweredBy() {
     return (
-        <div className='w-full max-w-[1020px] mt-12'>
+        <div className='w-full max-w-[1020px] mx-auto mt-12'>
             {/* Header */}
             <div className='text-center mb-6'>
                 <div className='flex items-center justify-center gap-3'>

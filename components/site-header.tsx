@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { ModeToggle } from '@/components/theme-toggle';
-import { MessagesSquare, Mic2, Ticket, Lightbulb, Menu, Calendar, Users, ChevronDown, ExternalLink } from 'lucide-react';
+import { MessagesSquare, Mic2, Lightbulb, Menu, ChevronDown, ExternalLink, type LucideIcon } from 'lucide-react';
 import { Button } from './ui/button';
 import Link from 'next/link';
 import {
@@ -13,26 +13,26 @@ import {
 } from '@/components/ui/dropdown-menu';
 
 export function SiteHeader() {
-    const internalLinks = [
-        {
-            href: '/speakers',
-            label: 'Speakers',
-            icon: Users,
-        },
-        {
-            href: '/agenda',
-            label: 'Agenda',
-            icon: Calendar,
-        },
+    const internalLinks: Array<{ href: string; label: string; icon: LucideIcon }> = [
+        // {
+        //     href: '/speakers',
+        //     label: 'Speakers',
+        //     icon: Users,
+        // },
+        // {
+        //     href: '/agenda',
+        //     label: 'Agenda',
+        //     icon: Calendar,
+        // },
     ];
 
     const externalLinks = [
-        {
-            href: 'https://www.entrio.hr/event/devfest-2025-21473',
-            label: 'Get Tickets',
-            icon: Ticket,
-            highlight: true,
-        },
+        // {
+        //     href: 'https://www.entrio.hr/event/devfest-2025-21473',
+        //     label: 'Get Tickets',
+        //     icon: Ticket,
+        //     highlight: true,
+        // },
         {
             href: 'https://linktr.ee/zagrebgdg',
             label: 'Talk to us!',
@@ -86,28 +86,28 @@ export function SiteHeader() {
                         })}
 
                         {/* Divider */}
-                        <div className='h-6 w-px bg-border' />
+                        {/* <div className='h-6 w-px bg-border' /> */}
 
                         {/* Get Tickets - Highlighted */}
-                        <Link href={externalLinks[0].href} target='_blank' rel='noopener noreferrer'>
+                        {/* <Link href={externalLinks[0].href} target='_blank' rel='noopener noreferrer'>
                             <Button size="sm" className="h-9 bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white">
                                 <Ticket className='h-4 w-4 mr-2' />
                                 Get Tickets
                             </Button>
-                        </Link>
+                        </Link> */}
 
-                        {/* More Dropdown */}
+                        {/* Menu Dropdown */}
                         <DropdownMenu>
                             <DropdownMenuTrigger asChild>
                                 <Button variant="outline" size="sm" className="h-9">
-                                    More
+                                    Menu
                                     <ChevronDown className='h-4 w-4 ml-1' />
                                 </Button>
                             </DropdownMenuTrigger>
                             <DropdownMenuContent align="end" className="w-56">
                                 <DropdownMenuLabel>Get Involved</DropdownMenuLabel>
                                 <DropdownMenuSeparator />
-                                {externalLinks.slice(1).map((item) => {
+                                {externalLinks.map((item) => {
                                     const Icon = item.icon;
                                     return (
                                         <DropdownMenuItem key={item.label} asChild>

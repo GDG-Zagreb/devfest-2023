@@ -35,13 +35,13 @@ export default function Sponsors() {
     };
 
     return (
-        <div className='w-full max-w-[1020px] mt-12'>
+        <div className='w-full max-w-[1020px] mx-auto mt-12'>
             {/* Header */}
             <div className='text-center mb-8'>
                 <div className='flex items-center justify-center gap-3 mb-4'>
                     <Building2 className='w-8 h-8 text-purple-600' />
                     <h2 className='text-3xl md:text-4xl font-bold text-gray-800 dark:text-gray-200'>
-                        Our Sponsors
+                        Our Sponsors in 2025
                     </h2>
                 </div>
                 <p className='text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto'>
@@ -101,7 +101,7 @@ export default function Sponsors() {
                                                 Become a Sponsor
                                             </p>
                                             <p className='text-sm text-gray-600 dark:text-gray-400'>
-                                                Join us at DevFest 2025
+                                                Missed 2025? Join us at DevFest 2026
                                             </p>
                                         </div>
                                     </div>
